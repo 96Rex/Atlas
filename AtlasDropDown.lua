@@ -61,9 +61,9 @@ Atlas_DropDownLayouts = {
 			"SMArmory",
 			"RazorfenDowns",
 			"SMCathedral",
-			"Uldaman",
 			"ZulFarrak",
 			"GilneasCity",-- TurtleWOW
+			"Uldaman",
 			"Maraudon",
 			"TheSunkenTemple",
 			"HateforgeQuarry",-- TurtleWOW

@@ -67,8 +67,8 @@ AtlasMaps = {
 		PlayerLimit = "5";
 		Continent = AL["Kalimdor"];
 		{ BLUE.."A) "..AL["Entrance"] };
-		{ GREY.."1) "..AL["Maur Grimtotem"], NPC, 11834 };
-		{ GREY..FORK..AL["Oggleflint"], NPC, 11517 };
+		{ GREY.."1) "..AL["Oggleflint"], NPC, 11517 };
+		{ GREY..FORK..AL["Maur Grimtotem"], NPC, 11834 };
 		{ GREY.."2) "..AL["Taragaman the Hungerer"], NPC, 11520 };
 		{ GREY.."3) "..AL["Jergosh the Invoker"], NPC, 11518 };
 		{ GREY.."4) "..AL["Bazzalan"], NPC, 11519 };
@@ -98,7 +98,7 @@ AtlasMaps = {
 		{ GREY..FORK..AL["Naralex"], NPC, 3679 };
 		{ "" };
 		{ GREY..INDENT..AL["Trash Mobs"] };
-		{ GREY..FORK..AL["Set: "]..BIS["Embrace of the Viper"] };
+		{ GREY..INDENT..AL["Set: "]..BIS["Embrace of the Viper"] };
 	};
 	TheDeadmines = {
 		ZoneName = { AL["The Deadmines"], 1581 };
@@ -124,7 +124,7 @@ AtlasMaps = {
 		{ GREY.."10) "..AL["Edwin VanCleef"], NPC, 639 };
 		{ "" };
 		{ GREY..INDENT..AL["Trash Mobs"] };
-		{ GREY..FORK..AL["Set: "]..BIS["Defias Leather"] };
+		{ GREY..INDENT..AL["Set: "]..BIS["Defias Leather"] };
 	};
 	ShadowfangKeep = {
 		ZoneName = { AL["Shadowfang Keep"], 209 };
@@ -298,7 +298,7 @@ AtlasMaps = {
 		{ GREN.."4) "..AL["Duke Dreadmoore"], NPC, -1 };
 		{ "" };
 		{ GREY..INDENT..AL["Trash Mobs"] };
-		{ GREY..FORK..AL["Set: "]..BIS["Chain of the Scarlet Crusade"] };
+		{ GREY..INDENT..AL["Set: "]..BIS["Chain of the Scarlet Crusade"] };
 	};
 	SMLibrary = {
 		ZoneName = { AL["Scarlet Monastery"]..": "..AL["Library"], 796 };
@@ -315,7 +315,7 @@ AtlasMaps = {
 		{ GREN.."3) "..AL["Brother Wystan"], NPC, -1  };
 		{ "" };
 		{ GREY..INDENT..AL["Trash Mobs"] };
-		{ GREY..FORK..AL["Set: "]..BIS["Chain of the Scarlet Crusade"] };
+		{ GREY..INDENT..AL["Set: "]..BIS["Chain of the Scarlet Crusade"] };
 	};
 	StormwroughtRuins = {
 		ZoneName = { AL["Stormwrought Ruins"]};
@@ -374,7 +374,7 @@ AtlasMaps = {
 		{ GREY.."2) "..AL["Armory Quartermaster Daghelm"], NPC, -1 };
 		{ "" };
 		{ GREY..INDENT..AL["Trash Mobs"] };
-		{ GREY..FORK..AL["Set: "]..BIS["Chain of the Scarlet Crusade"] };
+		{ GREY..INDENT..AL["Set: "]..BIS["Chain of the Scarlet Crusade"] };
 	};
 	RazorfenDowns = {
 		ZoneName = { AL["Razorfen Downs"], 722 };
@@ -414,7 +414,7 @@ AtlasMaps = {
 		{ GREY.."3) "..AL["High Inquisitor Whitemane"], NPC, 3977 };
 		{ "" };
 		{ GREY..INDENT..AL["Trash Mobs"] };
-		{ GREY..FORK..AL["Set: "]..BIS["Chain of the Scarlet Crusade"] };
+		{ GREY..INDENT..AL["Set: "]..BIS["Chain of the Scarlet Crusade"] };
 	};
 	Uldaman = {
 		ZoneName = { AL["Uldaman"], 1337 };
@@ -660,8 +660,8 @@ AtlasMaps = {
 		{ GREY.."25) "..AL["Blacksmithing Plans"], OBJECT, 173232 };
 		{ "" };
 		{ GREY..INDENT..AL["Trash Mobs"] };
-		{ GREY..FORK..AL["Set: "]..BIS["The Gladiator"] };
-		{ GREY..FORK..AL["Set: "]..BIS["Ironweave Battlesuit"] };
+		{ GREY..INDENT..AL["Set: "]..BIS["The Gladiator"] };
+		{ GREY..INDENT..AL["Set: "]..BIS["Ironweave Battlesuit"] };
 	};
 	BlackrockSpireLower = {
 		ZoneName = { AL["Lower Blackrock Spire"], 1583 };
@@ -705,9 +705,9 @@ AtlasMaps = {
 		{ GREN.."1') "..AL["Burning Felguard"].." ("..AL["Rare"]..", "..AL["Summon"]..")", NPC, 10263 };
 		{ "" };
 		{ GREY..INDENT..AL["Trash Mobs"] };
-		{ GREY..FORK..AL["Set: "]..BIS["Ironweave Battlesuit"] };
-		{ GREY..FORK..AL["Set: "]..BIS["Spider's Kiss"] };
-		{ GREY..FORK..AL["Set: "]..AL["Tier 0/0.5 Sets"] };
+		{ GREY..INDENT..AL["Set: "]..BIS["Ironweave Battlesuit"] };
+		{ GREY..INDENT..AL["Set: "]..BIS["Spider's Kiss"] };
+		{ GREY..INDENT..AL["Set: "]..AL["Tier 0/0.5 Sets"] };
 	};
 	DireMaulEast = {
 		ZoneName = { AL["Dire Maul"].." ("..AL["East"]..")", 2557 };
@@ -736,7 +736,7 @@ AtlasMaps = {
 		{ "" };
 		{ GREY..INDENT..AL["Trash Mobs"] };
 		{ GREY..FORK..AL["Dire Maul Books"] };
-		{ GREY..FORK..AL["Set: "]..BIS["Ironweave Battlesuit"] };
+		{ GREY..INDENT..AL["Set: "]..BIS["Ironweave Battlesuit"] };
 	};
 	DireMaulNorth = {
 		ZoneName = { AL["Dire Maul"].." ("..AL["North"]..")", 2557 };
@@ -856,11 +856,11 @@ AtlasMaps = {
 		{ GREN.."3') "..AL["Alchemy Lab"] };
 		{ "" };
 		{ GREY..INDENT..AL["Trash Mobs"] };
-		{ GREY..FORK..AL["Set: "]..BIS["Necropile Raiment"] };
-		{ GREY..FORK..AL["Set: "]..BIS["Cadaverous Garb"] };
-		{ GREY..FORK..AL["Set: "]..BIS["Bloodmail Regalia"] };
-		{ GREY..FORK..AL["Set: "]..BIS["Deathbone Guardian"] };
-		{ GREY..FORK..AL["Set: "]..BIS["Ironweave Battlesuit"] };
+		{ GREY..INDENT..AL["Set: "]..BIS["Necropile Raiment"] };
+		{ GREY..INDENT..AL["Set: "]..BIS["Cadaverous Garb"] };
+		{ GREY..INDENT..AL["Set: "]..BIS["Bloodmail Regalia"] };
+		{ GREY..INDENT..AL["Set: "]..BIS["Deathbone Guardian"] };
+		{ GREY..INDENT..AL["Set: "]..BIS["Ironweave Battlesuit"] };
 		{ GREY..FORK..AL["Tier 0/0.5 Sets"] };
 	};
 	Stratholme = {
@@ -916,8 +916,8 @@ AtlasMaps = {
 		{ GREN..FORK..AL["Third Postbox Opened"]..": "..AL["Postmaster Malown"], NPC, 11143 };
 		{ "" };
 		{ GREY..INDENT..AL["Trash Mobs"] };
-		{ GREY..FORK..AL["Set: "]..BIS["The Postmaster"] };
-		{ GREY..FORK..AL["Set: "]..BIS["Ironweave Battlesuit"] };
+		{ GREY..INDENT..AL["Set: "]..BIS["The Postmaster"] };
+		{ GREY..INDENT..AL["Set: "]..BIS["Ironweave Battlesuit"] };
 		{ GREY..FORK..AL["Tier 0/0.5 Sets"] };
 	};
 	BlackrockSpireUpper = {
@@ -951,7 +951,7 @@ AtlasMaps = {
 		{ GREY.."10) "..AL["Blackwing Lair"], ZONE, 2677 };
 		{ "" };
 		{ GREY..INDENT..AL["Trash Mobs"] };
-		{ GREY..FORK..AL["Set: "]..BIS["Ironweave Battlesuit"] };
+		{ GREY..INDENT..AL["Set: "]..BIS["Ironweave Battlesuit"] };
 		{ GREY..FORK..AL["Tier 0/0.5 Sets"] };
 	};
 	KarazhanCrypt = {
@@ -1123,8 +1123,8 @@ AtlasMaps = {
 		{ "" };
 		{ GREY..INDENT..AL["Trash Mobs"] };
 		{ GREY..INDENT..AL["Random Boss Loot"] };
-		{ GREY..FORK..AL["Set: "]..BIS["Primal Blessing"] };
-		{ GREY..FORK..AL["Set: "]..BIS["The Twin Blades of Hakkari"] };
+		{ GREY..INDENT..AL["Set: "]..BIS["Primal Blessing"] };
+		{ GREY..INDENT..AL["Set: "]..BIS["The Twin Blades of Hakkari"] };
 		{ GREY..FORK..AL["Zul'Gurub Ring Sets"] };
 		{ GREY..FORK..AL["Zul'Gurub Sets"] };
 		{ GREY..FORK..AL["ZG Enchants"] };
