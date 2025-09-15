@@ -39,58 +39,54 @@ BINDING_NAME_ATLAS_AUTOSEL = "Auto-Select";
 ATLAS_SUBTITLE = "Instance Map Browser";
 ATLAS_DESC = "Atlas is an instance map browser.";
 
-ATLAS_STRING_LOCATION = "Location";
-ATLAS_STRING_LEVELRANGE = "Level Range";
-ATLAS_STRING_PLAYERLIMIT = "Player Limit";
+ATLAS_BUTTON_TOOLTIP_TITLE = "Atlas";
+ATLAS_BUTTON_TOOLTIP_HINT = "Left-click to open Atlas.\nMiddle-click for Atlas options.\nRight-click and drag to move this button.";
+-- ATLAS_TITAN_HINT = "Left-click to open Atlas.\nMiddle-click for Atlas options.\nRight-click for the display menu.";
+
 ATLAS_STRING_SELECT_CAT = "Select Category";
 ATLAS_STRING_SELECT_MAP = "Select Map";
-ATLAS_STRING_SEARCH = "Search";
-ATLAS_STRING_CLEAR = "Clear";
+
+ATLAS_STRING_LOCATION = "Location";
+ATLAS_STRING_LEVELRANGE = "Level Range";
 ATLAS_STRING_MINLEVEL = "Minimum Level";
+ATLAS_STRING_PLAYERLIMIT = "Player Limit";
 
 ATLAS_OPTIONS_BUTTON = "Options";
+ATLAS_INSTANCE_BUTTON = "Instance";
+ATLAS_ENTRANCE_BUTTON = "Entrance";
+ATLAS_STRING_SEARCH = "Search";
+ATLAS_STRING_CLEAR = "Clear";
+
 ATLAS_OPTIONS_SHOWBUT = "Show Button on Minimap";
 ATLAS_OPTIONS_AUTOSEL = "Auto-Select Instance Map";
 ATLAS_OPTIONS_BUTPOS = "Button Position";
 ATLAS_OPTIONS_TRANS = "Transparency";
 ATLAS_OPTIONS_DONE = "Done";
 ATLAS_OPTIONS_RCLICK = "Right-Click for World Map";
-ATLAS_OPTIONS_SHOWMAPNAME = "Show map name";
+-- ATLAS_OPTIONS_SHOWMAPNAME = "Show map name";
 ATLAS_OPTIONS_RESETPOS = "Reset Position";
 ATLAS_OPTIONS_ACRONYMS = "Display Acronyms";
 ATLAS_OPTIONS_SCALE = "Scale";
 ATLAS_OPTIONS_BUTRAD = "Button Radius";
 ATLAS_OPTIONS_CLAMPED = "Clamp window to screen";
-ATLAS_OPTIONS_HELP = "Left-click and drag to move this window.";
-
-ATLAS_BUTTON_TOOLTIP_TITLE = "Atlas";
-ATLAS_BUTTON_TOOLTIP_HINT = "Left-click to open Atlas.\nMiddle-click for Atlas options.\nRight-click and drag to move this button.";
-ATLAS_TITAN_HINT = "Left-click to open Atlas.\nMiddle-click for Atlas options.\nRight-click for the display menu.";
-
+-- ATLAS_OPTIONS_HELP = "Left-click and drag to move this window.";
 ATLAS_OPTIONS_CATDD = "Sort Instance Maps by:";
-ATLAS_DDL_CONTINENT = "Continent";
-ATLAS_DDL_CONTINENT_EASTERN = "Eastern Kingdoms Instances";
-ATLAS_DDL_CONTINENT_KALIMDOR = "Kalimdor Instances";
-ATLAS_DDL_LEVEL = "Level";
-ATLAS_DDL_PARTYSIZE = "Party Size";
-ATLAS_DDL_PARTYSIZE_5 = "Instances for 5 Players";
-ATLAS_DDL_PARTYSIZE_10 = "Instances for 10 Players";
-ATLAS_DDL_PARTYSIZE_20 = "Instances for 20 Players";
-ATLAS_DDL_PARTYSIZE_40 = "Instances for 40 Players";
-ATLAS_DDL_ALL = "All";
-ATLAS_DDL_ALL_MENU = "Showing all instances";
-ATLAS_DDL_TYPE = "Type";
-ATLAS_DDL_TYPE_DUNGEONS = "Dungeons";
-ATLAS_DDL_TYPE_RAIDS = "Raids";
-ATLAS_DDL_WORLDBOSSES = "World Bosses";
-ATLAS_DDL_TYPE_ENTRANCE = "Entrances";
-ATLAS_DDL_BGS = "Battlegrounds";
-ATLAS_DDL_DUNGEON_LOCATIONS = "Dungeon Locations";
-ATLAS_DDL_FLIGHT_PATHS = "Flight Path Maps";
-ATLAS_DDL_TRANSPORT_ROUTES = "Transport Routes";
-ATLAS_INSTANCE_BUTTON = "Instance";
-ATLAS_ENTRANCE_BUTTON = "Entrance";
-ATLAS_SEARCH_UNAVAIL = "Search Unavailable";
+-- ATLAS_SEARCH_UNAVAIL = "Search Unavailable";
+
+ATLAS_DDL_LOOTS = "Loots";
+ATLAS_DDL_LOOTS_DUNGEONS = "Dungeons";
+ATLAS_DDL_LOOTS_RAIDS = "Raids";
+ATLAS_DDL_LOOTS_WORLDBOSSES = "World Bosses";
+
+ATLAS_DDL_MAPS = "Maps";
+ATLAS_DDL_MAPS_ENTRANCES = "Entrances";
+ATLAS_DDL_MAPS_BATTLEGROUNDS = "Battlegrounds";
+ATLAS_DDL_MAPS_LOCATIONS = "Dungeon Locations";
+
+ATLAS_DDL_TRAFFICS = "traffics";
+ATLAS_DDL_TRAFFICS_FLIGHTS = "flights";
+ATLAS_DDL_TRAFFICS_TRANSPORT = "transport";
+
 
 AtlasZoneSubstitutions = {
 	["The Temple of Atal'Hakkar"] = "Sunken Temple";
@@ -1429,5 +1425,19 @@ Dependencies: AceLibrary, AceLocale-2.2
 	["Remains of the Innocent"] = true,
 	["Subjugator Halthas Shadecrest"] = true,
 	["Mergothid"] = true,
-
+	--20250915 By 96Rex
+	["Brother Wystan"] = true,
+	["Masterpiece Harvester"] = true,
+	["Vangros"]= true,
+	["Duke Dreadmoore"] = true,
+	["Zandara Windhoof"] = true,
+	["Prelate Ironmane"] = true,
+	["Jared Voss"] = true,
+	["Armory Quartermaster Daghelm"] = true,
+	["Embrace of the Viper"] = true,
+	["Defias Leather"] = true,
+	["Chain of the Scarlet Crusade"] = true,
+	["The Gladiator"] = true,
+	["Ironweave Battlesuit"] = true,
+	["Nerubian Overseer"] = true,
 } end)

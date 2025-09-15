@@ -105,7 +105,7 @@ BabbleClass:RegisterTranslations("zhCN", function()
 		["Priest"] = "牧师",
 		["Druid"] = "德鲁伊",
 		["Paladin"] = "圣骑士",
-		["Shaman"] = "萨满祭司",
+		["Shaman"] = "萨满",
 		["Rogue"] = "盗贼",
 	}
 end)

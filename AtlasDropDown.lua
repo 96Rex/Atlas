@@ -23,328 +23,119 @@
 local GREN = "|cff66cc33"
 
 Atlas_DropDownLayouts_Order = {
-	[1] = ATLAS_DDL_CONTINENT,
-	[2] = ATLAS_DDL_PARTYSIZE,
-	[3] = ATLAS_DDL_TYPE,
-	[ATLAS_DDL_CONTINENT] = {
-		[1] = ATLAS_DDL_CONTINENT_EASTERN,
-		[2] = ATLAS_DDL_CONTINENT_KALIMDOR,
-		[3] = ATLAS_DDL_WORLDBOSSES,
-		[4] = GREN .. ATLAS_DDL_TYPE_ENTRANCE,
-		[5] = GREN .. ATLAS_DDL_BGS,
-		[6] = GREN .. ATLAS_DDL_DUNGEON_LOCATIONS,
-		[7] = GREN .. ATLAS_DDL_FLIGHT_PATHS,
-		[8] = ATLAS_DDL_TRANSPORT_ROUTES,
+	[1] = ATLAS_DDL_LOOTS,
+	[2] = ATLAS_DDL_MAPS,
+	[3] = ATLAS_DDL_TRAFFICS,
+	[ATLAS_DDL_LOOTS] = {
+		[1] = ATLAS_DDL_LOOTS_DUNGEONS,
+		[2] = ATLAS_DDL_LOOTS_RAIDS,
+		[3] = ATLAS_DDL_LOOTS_WORLDBOSSES,
 	},
-	[ATLAS_DDL_PARTYSIZE] = {
-		[1] = ATLAS_DDL_PARTYSIZE_5,
-		[2] = ATLAS_DDL_PARTYSIZE_10,
-		[3] = ATLAS_DDL_PARTYSIZE_20,
-		[4] = ATLAS_DDL_PARTYSIZE_40,
-		[5] = ATLAS_DDL_WORLDBOSSES,
-		[6] = GREN .. ATLAS_DDL_TYPE_ENTRANCE,
-		[7] = GREN .. ATLAS_DDL_BGS,
-		[8] = GREN .. ATLAS_DDL_DUNGEON_LOCATIONS,
-		[9] = GREN .. ATLAS_DDL_FLIGHT_PATHS,
-		[10] = ATLAS_DDL_TRANSPORT_ROUTES,
+	[ATLAS_DDL_MAPS] = {
+		[1] = ATLAS_DDL_MAPS_ENTRANCES,
+		[2] = ATLAS_DDL_MAPS_BATTLEGROUNDS,
+		[3] = ATLAS_DDL_MAPS_LOCATIONS,
 	},
-	[ATLAS_DDL_TYPE] = {
-		[1] = ATLAS_DDL_TYPE_DUNGEONS,
-		[2] = ATLAS_DDL_TYPE_RAIDS,
-		[3] = ATLAS_DDL_WORLDBOSSES,
-		[4] = GREN .. ATLAS_DDL_TYPE_ENTRANCE,
-		[5] = GREN .. ATLAS_DDL_BGS,
-		[6] = GREN .. ATLAS_DDL_DUNGEON_LOCATIONS,
-		[7] = GREN .. ATLAS_DDL_FLIGHT_PATHS,
-		[8] = ATLAS_DDL_TRANSPORT_ROUTES,
-	},
-	[ATLAS_DDL_ALL] = {
-		[1] = ATLAS_DDL_ALL_MENU,
-		[2] = ATLAS_DDL_WORLDBOSSES,
-		[3] = GREN .. ATLAS_DDL_TYPE_ENTRANCE,
-		[4] = GREN .. ATLAS_DDL_BGS,
-		[5] = GREN .. ATLAS_DDL_DUNGEON_LOCATIONS,
-		[6] = GREN .. ATLAS_DDL_FLIGHT_PATHS,
+	[ATLAS_DDL_TRAFFICS] = {
+		[1] = ATLAS_DDL_TRAFFICS_FLIGHTS,
+		[2] = ATLAS_DDL_TRAFFICS_TRANSPORT,
 	},
 };
 
 Atlas_DropDownLayouts = {
-	[ATLAS_DDL_CONTINENT] = {
-		[ATLAS_DDL_CONTINENT_EASTERN] = {
-			"BlackrockDepths",
-			"BlackrockSpireLower",
-			"BlackrockSpireUpper",
-			"BlackwingLair",
-			"DragonmawRetreat",
-			"Gnomeregan",
-			"GilneasCity", -- TurtleWOW 1.17.0
-			"HateforgeQuarry", -- TurtleWOW
-			"KarazhanCrypt", -- TurtleWOW
-			"LowerKara", -- -- TurtleWOW 1.17.0
-            "UpperKara",
-			"MoltenCore",
-			"Naxxramas",
-			"Scholomance",
+	[ATLAS_DDL_LOOTS] = {
+		[ATLAS_DDL_LOOTS_DUNGEONS] = {
+			"RagefireChasm",
+			"WailingCaverns",
+			"TheDeadmines",
 			"ShadowfangKeep",
-			"SMArmory",
-			"SMCathedral",
+			"BlackfathomDeeps",
+			"TheStockade",
+			"DragonmawRetreat",-- TurtleWOW
+			"Gnomeregan",
+			"RazorfenKraul",
 			"SMGraveyard",
 			"SMLibrary",
-			"Stratholme",
-			"StormwindVault", -- TurtleWOW
-			"StormwroughtRuins",
-			"TheDeadmines",
-			"TheStockade",
-			"TheSunkenTemple",
+			"StormwroughtRuins",-- TurtleWOW
+			"TheCrescentGrove",-- TurtleWOW
+			"SMArmory",
+			"RazorfenDowns",
+			"SMCathedral",
 			"Uldaman",
-			"ZulGurub",
-		},
-		[ATLAS_DDL_CONTINENT_KALIMDOR] = {
-			"BlackfathomDeeps",
-			"CavernsOfTimeBlackMorass", -- TurtleWOW
-			"TheCrescentGrove", -- TurtleWOW
+			"ZulFarrak",
+			"GilneasCity",-- TurtleWOW
+			"Maraudon",
+			"TheSunkenTemple",
+			"HateforgeQuarry",-- TurtleWOW
+			"BlackrockDepths",
+			"BlackrockSpireLower",
 			"DireMaulEast",
 			"DireMaulNorth",
 			"DireMaulWest",
-			"EmeraldSanctum", -- TurtleWOW 1.17.0
-			"Maraudon",
-			"OnyxiasLair",
-			"RagefireChasm",
-			"RazorfenDowns",
-			"RazorfenKraul",
-			"TheRuinsofAhnQiraj",
-			"TheTempleofAhnQiraj",
-			"WailingCaverns",
-			"ZulFarrak",
+			"Scholomance",
+			"Stratholme",
+			"BlackrockSpireUpper",
+			"KarazhanCrypt",-- TurtleWOW
+			"StormwindVault",-- TurtleWOW
+			"CavernsOfTimeBlackMorass",-- TurtleWOW
 		},
-		[ATLAS_DDL_WORLDBOSSES] = {
+		[ATLAS_DDL_LOOTS_RAIDS] = {
+			"LowerKara",-- TurtleWOW
+			"OnyxiasLair",
+			"EmeraldSanctum",-- TurtleWOW
+			"ZulGurub",
+			"TheRuinsofAhnQiraj",
+			"MoltenCore",
+			"BlackwingLair",
+			"TheTempleofAhnQiraj",
+			"Naxxramas",
+            "UpperKara",
+		},
+		[ATLAS_DDL_LOOTS_WORLDBOSSES] = {
 			"Azuregos",
 			"FourDragons",
 			"LordKazzak",
 			"Nerubian",
-			"Reaver",
-			"Ostarius",
-			"Concavius",
-			"CowKing",
-			"Clackora"
-		},
-		[GREN .. ATLAS_DDL_TYPE_ENTRANCE] = {
-			"BlackfathomDeepsEnt",
-			"BlackrockMountainEnt",
-			"DireMaulEnt",
-			"GnomereganEnt",
-			"MaraudonEnt",
-			"SMEnt",
-			"TheDeadminesEnt",
-			"TheSunkenTempleEnt",
-			"UldamanEnt",
-			"WailingCavernsEnt",
-		},
-		[GREN .. ATLAS_DDL_BGS] = {
-			"AlteracValleyNorth",
-			"AlteracValleySouth",
-			"ArathiBasin",
-			"WarsongGulch",
-		},
-		[GREN .. ATLAS_DDL_DUNGEON_LOCATIONS] = {
-			"DLEast",
-			"DLWest",
-		},
-		[GREN .. ATLAS_DDL_FLIGHT_PATHS] = {
-			"FPAllianceEast",
-			"FPAllianceWest",
-			"FPHordeEast",
-			"FPHordeWest",
-		},
-		[ATLAS_DDL_TRANSPORT_ROUTES] = {
-			"TransportRoutes"
+			"Reaver",-- TurtleWOW
+			"Ostarius",-- TurtleWOW
+			"Concavius",-- TurtleWOW
+			"CowKing",-- TurtleWOW
+			"Clackora",-- TurtleWOW
 		},
 	},
-	[ATLAS_DDL_PARTYSIZE] = {
-		[ATLAS_DDL_PARTYSIZE_5] = {
-			"CavernsOfTimeBlackMorass", -- TurtleWOW
-			"BlackrockDepths",
-			"TheCrescentGrove", --TurtleWOW
-			"DireMaulEast",
-			"DireMaulEnt",
-			"DireMaulNorth",
-			"DireMaulWest",
-			"DragonmawRetreat",
-			"GilneasCity", -- TurtleWOW 1.17.0
-			"HateforgeQuarry", -- TurtleWOW
-			"Scholomance",
-			"Stratholme",
-			"BlackrockSpireLower",
-			"Gnomeregan",
-			"KarazhanCrypt", -- TurtleWOW
-			"Maraudon",
-			"TheDeadmines",
-			"RagefireChasm",
-			"RazorfenDowns",
-			"RazorfenKraul",
-			"ShadowfangKeep",
-			"SMArmory",
-			"SMCathedral",
-			"SMGraveyard",
-			"SMLibrary",
-			"StormwindVault", --TurtleWOW
-			"StormwroughtRuins",
-			"TheStockade",
-			"TheSunkenTemple",
-			"Uldaman",
-			"WailingCaverns",
-			"ZulFarrak",
-		},
-		[ATLAS_DDL_PARTYSIZE_10] = {
-			"BlackrockSpireLower",
-			"BlackrockSpireUpper",
-			"LowerKara", -- -- TurtleWOW 1.17.0
-		},
-		[ATLAS_DDL_PARTYSIZE_20] = {
-			"TheRuinsofAhnQiraj",
-			"ZulGurub",
-		},
-		[ATLAS_DDL_PARTYSIZE_40] = {
-			"BlackwingLair",
-			"EmeraldSanctum", -- TurtleWOW 1.17.0
-			"MoltenCore",
-			"Naxxramas",
-			"OnyxiasLair",
-			"TheTempleofAhnQiraj",
-            "UpperKara",
-		},
-		[ATLAS_DDL_WORLDBOSSES] = {
-			"Azuregos",
-			"FourDragons",
-			"LordKazzak",
-			"Nerubian",
-			"Reaver",
-			"Ostarius",
-			"Concavius",
-			"CowKing",
-			"Clackora"
-		},
-		[GREN .. ATLAS_DDL_TYPE_ENTRANCE] = {
+	[ATLAS_DDL_MAPS] = {
+		[ATLAS_DDL_MAPS_ENTRANCES] = {
+			"WailingCavernsEnt",
+			"TheDeadminesEnt",
 			"BlackfathomDeepsEnt",
+			"SMEnt",
+			"GnomereganEnt",
+			"UldamanEnt",
+			"MaraudonEnt",
+			"TheSunkenTempleEnt",
 			"BlackrockMountainEnt",
 			"DireMaulEnt",
-			"GnomereganEnt",
-			"MaraudonEnt",
-			"SMEnt",
-			"TheDeadminesEnt",
-			"TheSunkenTempleEnt",
-			"UldamanEnt",
-			"WailingCavernsEnt",
 		},
-		[GREN .. ATLAS_DDL_BGS] = {
+		[ATLAS_DDL_MAPS_BATTLEGROUNDS] = {
 			"AlteracValleyNorth",
 			"AlteracValleySouth",
 			"ArathiBasin",
 			"WarsongGulch",
 		},
-		[GREN .. ATLAS_DDL_DUNGEON_LOCATIONS] = {
+		[ATLAS_DDL_MAPS_LOCATIONS] = {
 			"DLEast",
 			"DLWest",
-		},
-		[GREN .. ATLAS_DDL_FLIGHT_PATHS] = {
-			"FPAllianceEast",
-			"FPAllianceWest",
-			"FPHordeEast",
-			"FPHordeWest",
-		},
-		[ATLAS_DDL_TRANSPORT_ROUTES] = {
-			"TransportRoutes"
 		},
 	},
-	[ATLAS_DDL_TYPE] = {
-		[ATLAS_DDL_TYPE_DUNGEONS] = {
-			"BlackfathomDeeps",
-			"CavernsOfTimeBlackMorass", -- TurtleWOW
-			"BlackrockDepths",
-			"BlackrockSpireLower",
-			"BlackrockSpireUpper",
-			"TheCrescentGrove", -- TurtleWOW
-			"DireMaulEast",
-			"DireMaulNorth",
-			"DireMaulWest",
-			"DragonmawRetreat",
-			"Gnomeregan",
-			"GilneasCity", -- TurtleWOW 1.17.0
-			"HateforgeQuarry", -- TurtleWOW
-			"KarazhanCrypt", -- TurtleWOW
-			"Maraudon",
-			"TheDeadmines",
-			"RagefireChasm",
-			"RazorfenDowns",
-			"RazorfenKraul",
-			"Scholomance",
-			"ShadowfangKeep",
-			"SMArmory",
-			"SMCathedral",
-			"SMGraveyard",
-			"SMLibrary",
-			"StormwindVault", --TurtleWOW
-			"StormwroughtRuins",
-			"Stratholme",
-			"TheStockade",
-			"TheSunkenTemple",
-			"Uldaman",
-			"WailingCaverns",
-			"ZulFarrak",
-		},
-		[ATLAS_DDL_TYPE_RAIDS] = {
-			"BlackwingLair",
-			"EmeraldSanctum", -- TurtleWOW 1.17.0
-			"LowerKara", -- -- TurtleWOW 1.17.0
-            "UpperKara",
-			"MoltenCore",
-			"Naxxramas",
-			"OnyxiasLair",
-			"TheRuinsofAhnQiraj",
-			"TheTempleofAhnQiraj",
-			"ZulGurub",
-		},
-		[ATLAS_DDL_WORLDBOSSES] = {
-			"Azuregos",
-			"FourDragons",
-			"LordKazzak",
-			"Nerubian",
-			"Reaver",
-			"Ostarius",
-			"Concavius",
-			"CowKing",
-			"Clackora"
-		},
-		[GREN .. ATLAS_DDL_TYPE_ENTRANCE] = {
-			"BlackfathomDeepsEnt",
-			"BlackrockMountainEnt",
-			"DireMaulEnt",
-			"GnomereganEnt",
-			"MaraudonEnt",
-			"SMEnt",
-			"TheDeadminesEnt",
-			"TheSunkenTempleEnt",
-			"UldamanEnt",
-			"WailingCavernsEnt",
-		},
-		[GREN .. ATLAS_DDL_BGS] = {
-			"AlteracValleyNorth",
-			"AlteracValleySouth",
-			"ArathiBasin",
-			"WarsongGulch",
-		},
-		[GREN .. ATLAS_DDL_DUNGEON_LOCATIONS] = {
-			"DLEast",
-			"DLWest",
-		},
-		[GREN .. ATLAS_DDL_FLIGHT_PATHS] = {
+	[ATLAS_DDL_TRAFFICS] = {
+		[ATLAS_DDL_TRAFFICS_FLIGHTS] = {
 			"FPAllianceEast",
 			"FPAllianceWest",
 			"FPHordeEast",
 			"FPHordeWest",
 		},
-		[ATLAS_DDL_TRANSPORT_ROUTES] = {
-			"TransportRoutes"
+		[ATLAS_DDL_TRAFFICS_TRANSPORT] = {
+			"TransportRoutes",
 		},
 	},
 };

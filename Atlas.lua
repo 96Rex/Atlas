@@ -323,7 +323,7 @@ function Atlas_PopulateDropdowns()
 
 		if (subcatOrder[n] ~= ATLAS_DDL_ALL_MENU and
 				subcatOrder[n] ~= ATLAS_DDL_WORLDBOSSES) then
-			table.sort(ATLAS_DROPDOWNS[n], Atlas_SortZonesAlpha);
+			 -- table.sort(ATLAS_DROPDOWNS[n], Atlas_SortZonesAlpha);
 		end
 
 		i = n + 1;
@@ -339,7 +339,7 @@ function Atlas_PopulateDropdowns()
 				end
 			end
 
-			table.sort(ATLAS_DROPDOWNS[i], Atlas_SortZonesAlpha);
+			 -- table.sort(ATLAS_DROPDOWNS[i], Atlas_SortZonesAlpha);
 
 			i = i + 1;
 		end
