@@ -557,7 +557,7 @@ AL:RegisterTranslations("zhCN", function() return {
 ["Sneed's Shredder"] = "斯尼德的伐木机",
 ["Gilnid"] = "基尔尼格",
 ["Masterpiece Harvester"] = "收割者傀儡",
--- ["Defias Gunpowder"] = "迪菲亚火药",未标注未体现
+["Defias Gunpowder"] = "迪菲亚火药",
 ["Mr. Smite"] = "重拳先生",
 ["Cookie"] = "曲奇",
 ["Captain Greenskin"] = "绿皮队长",
