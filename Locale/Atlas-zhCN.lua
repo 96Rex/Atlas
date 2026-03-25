@@ -155,7 +155,7 @@ AL:RegisterTranslations("zhCN", function() return {
 	["Connection"] = "连接";
 	["Connections"] = "连接点";
 	["Damage: "] = "伤害: ";
-	["Тier 0.5 Summon"] = "T0.5 召唤";
+	["Tier 0.5 Summon"] = "T0.5 召唤";
 	["Dungeon Locations"] = "地下城位置";
 	["Elevator"] = "升降机";
 	["Front"] = "前部";

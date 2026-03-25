@@ -160,6 +160,7 @@ AtlasMaps = {
 		{ GREY.."3) "..AL["High Priestess A'lathea"], NPC, 92108 };
 		{ GREY.."4) "..AL["Fenektis the Deceiver"], NPC, 92111 };
 		{ GREY.."5) "..AL["Master Raxxieth"], NPC, 92110 };
+		{ "" };
 		{ GREY..INDENT..AL["Trash Mobs"] };
 	};
 	--HateforgeQuarry TurtleWOW
@@ -178,6 +179,7 @@ AtlasMaps = {
 		{ GREY.."3) "..AL["Corrosis"], NPC, 60829 };
 		{ GREY.."4) "..AL["Hatereaver Annihilator"], NPC, 60734 };
 		{ GREY.."5) "..AL["Hargesh Doomcaller"], NPC, 60737 };
+		{ "" };
 		{ GREY..INDENT..AL["Trash Mobs"] };
 	};
 	--KarazhanCrypt TurtleWOW
@@ -198,6 +200,7 @@ AtlasMaps = {
 		{ GREY.."6) "..AL["Commander Andreon"], NPC, 91919 }; -- Commander Andreon not Commander Anderson. AtlasLoot name misstake
 		{ GREY.."7) "..AL["Alarus"], NPC, 91928 };
 		{ GREY.."8) "..AL["Half-Buried Treasure Chest"], OBJECT, 379545 };
+		{ "" };
 		{ GREY..INDENT..AL["Trash Mobs"] };
 	};
 	--CavernsOfTimeBlackMorass TurtleWOW
@@ -218,6 +221,7 @@ AtlasMaps = {
 		{ GREY.."5) "..AL["Mossheart"], NPC, 65124 };
 		{ GREY.."6) "..AL["Antnormi"], NPC, 65125 };
 		{ GREY.."7) "..AL["Rotmaw"], NPC, 65122 };
+		{ "" };
 		{ GREY..INDENT..AL["Trash Mobs"] };
 	};
 	--StormwindVault TurtleWOW
@@ -238,6 +242,7 @@ AtlasMaps = {
 		{ GREY.."5) "..AL["Volkan Cruelblade"], NPC, 80851 };
 		{ GREY.."6) "..AL["Arc'tiras"], NPC, 93107 };
 		{ GREY.."7) "..AL["Vault Armory Equipment"], NPC, -1 };
+		{ "" };
 		{ GREY..INDENT..AL["Trash Mobs"] };
 	};
 		--GilneasCity TurtleWOW
@@ -260,6 +265,7 @@ AtlasMaps = {
 		{ GREY.."6) "..AL["Horsemaster Levvin"], NPC, 61605 };
 		{ GREY.."7) "..AL["Harlow Family Chest"], OBJECT, 2020027 };
 		{ GREY.."8) "..AL["Genn Greymane"], NPC, 61418 };
+		{ "" };
 		{ GREY..INDENT..AL["Trash Mobs"] };
 	};
 		--LowerKara TurtleWOW
@@ -285,6 +291,7 @@ AtlasMaps = {
 		{ GREY..INDENT.."e) "..AL["Obsidian Rod"] };
 		{ GREY..INDENT.."f) "..AL["Duke Rothlen"] };
 		{ GREY.."6) "..AL["Moroes"], NPC, 61226 };
+		{ "" };
 		{ GREY..INDENT..AL["Trash Mobs"] };
 		{ GREY..INDENT..AL["LKH Enchants"] };
 	};
@@ -292,10 +299,12 @@ AtlasMaps = {
 		ZoneName = { AL["Tower of Karazhan"], };
 		Acronym = "Kara40";
 		Location = { AL["Deadwind Pass"], 41};
-		LevelRange = "60";
+		LevelRange = "60+";
 		MinLevel = "60";
 		PlayerLimit = "40";
 		Continent = AL["Eastern Kingdoms"];
+		{ ORNG..AL["Attunement Required"] };
+		{ ORNG..AL["Key"]..": "..AL["Upper Karazhan Tower Key"], ITEM, 61234 };
 		{ BLUE.."A) "..AL["Entrance"] };
 		{ BLUE.."B) "..AL["Connection"] };
 		{ GREY.."1) "..AL["Keeper Gnarlmoon"], NPC, -1 };
@@ -307,7 +316,9 @@ AtlasMaps = {
 		{ GREY.."7) "..AL["Rupturan the Broken"], NPC, -1 };
 		{ GREY.."8) "..AL["Kruul"], NPC, -1 };
 		{ GREY.."9) "..AL["Mephistroth"], NPC, -1 };
+		{ "" };
 		{ GREY..INDENT..AL["Trash Mobs"] };
+		{ GREY..INDENT..AL["Karazhan Sets"] };
 	};
 	-- EmeraldSanctum TurtleWOW
 	EmeraldSanctum = {
@@ -318,6 +329,8 @@ AtlasMaps = {
 		MinLevel = "58";
 		PlayerLimit = "40";
 		Continent = AL["Kalimdor"];
+		{ ORNG..AL["Attunement Required"] };
+		{ ORNG..AL["Key"]..": "..AL["Gemstone of Ysera"], ITEM, 50545 };
 		{ BLUE.."A) "..AL["Entrance"] };
 		{ GREY.."1) "..AL["Erennius"], NPC, 60747 };
 		{ GREY.."2) "..AL["Solnius the Awakener"], NPC, 60748 };
@@ -440,7 +453,7 @@ AtlasMaps = {
 		MinLevel = "50";
 		PlayerLimit = "5";
 		Continent = AL["Kalimdor"];
-		{ ORNG..AL["Key"]..": "..AL["Brazier of Invocation"].." ("..AL["Тier 0.5 Summon"]..")", ITEM, 22057 };
+		{ ORNG..AL["Key"]..": "..AL["Brazier of Invocation"].." ("..AL["Tier 0.5 Summon"]..")", ITEM, 22057 };
 		{ BLUE.."A) "..AL["Entrance"] };
 		{ BLUE.."B) "..AL["Entrance"] };
 		{ BLUE.."C) "..AL["Entrance"] };
@@ -548,22 +561,6 @@ AtlasMaps = {
 		{ BLUE.."A) "..AL["Entrance"] };
 		{ GREY.."1) "..AL["Broodcommander Axelus"] };
 		{ GREY.."2) "..AL["Onyxia"], NPC, 10184 };
-		{ "" };
-		{ "" };
-		{ "" };
-		{ "" };
-		{ "" };
-		{ "" };
-		{ "" };
-		{ "" };
-		{ "" };
-		{ "" };
-		{ "" };
-		{ "" };
-		{ "" };
-		{ "" };
-		{ "" };
-		{ "" };
 		{ "" };
 		{ ORNG..AL["Damage: "]..AL["Fire"] };
 	};
@@ -719,7 +716,7 @@ AtlasMaps = {
 		Continent = AL["Eastern Kingdoms"];
 		{ ORNG..AL["Key"]..": "..AL["Shadowforge Key"], ITEM, 11000 };
 		{ ORNG..AL["Key"]..": "..AL["Prison Cell Key"], ITEM, 11140 };
-		{ ORNG..AL["Key"]..": "..AL["Banner of Provocation"].." ("..AL["Тier 0.5 Summon"]..")", ITEM, 21986 };
+		{ ORNG..AL["Key"]..": "..AL["Banner of Provocation"].." ("..AL["Tier 0.5 Summon"]..")", ITEM, 21986 };
 		{ BLUE.."A) "..AL["Entrance"] };
 		{ GREY.."1) "..AL["Lord Roccor"], NPC, 9025 };
 		{ GREY.."2) "..AL["Kharan Mighthammer"], NPC, 9021 };
@@ -797,7 +794,7 @@ AtlasMaps = {
 		MinLevel = "55";
 		PlayerLimit = "10";
 		Continent = AL["Eastern Kingdoms"];
-		{ ORNG..AL["Key"]..": "..AL["Brazier of Invocation"].." ("..AL["Тier 0.5 Summon"]..")", ITEM, 22057 };
+		{ ORNG..AL["Key"]..": "..AL["Brazier of Invocation"].." ("..AL["Tier 0.5 Summon"]..")", ITEM, 22057 };
 		{ BLUE.."A) "..AL["Entrance"] };
 		{ BLUE.."B) "..AL["Upper Blackrock Spire"].." (UBRS)", ZONE, 1583 };
 		{ BLUE.."C-F) "..AL["Connections"] };
@@ -844,7 +841,7 @@ AtlasMaps = {
 		PlayerLimit = "10";
 		Continent = AL["Eastern Kingdoms"];
 		{ ORNG..AL["Key"]..": "..AL["Seal of Ascension"], ITEM, 12344 };
-		{ ORNG..AL["Key"]..": "..AL["Brazier of Invocation"].." ("..AL["Тier 0.5 Summon"]..")", ITEM, 22057 };
+		{ ORNG..AL["Key"]..": "..AL["Brazier of Invocation"].." ("..AL["Tier 0.5 Summon"]..")", ITEM, 22057 };
 		{ BLUE.."A) "..AL["Entrance"] };
 		{ BLUE.."B) "..AL["Lower Blackrock Spire"].." (LBRS)", ZONE, 1583 };
 		{ BLUE.."C-E) "..AL["Connections"] };
@@ -894,10 +891,6 @@ AtlasMaps = {
 		{ "" };
 		{ GREY..INDENT..AL["Trash Mobs"] };
 		{ GREY..INDENT..AL["Tier 2 Sets"] };
-		{ "" };
-		{ "" };
-		{ "" };
-		{ "" };
 		{ "" };
 		{ ORNG..AL["Damage: "]..AL["Fire"] };
 	};
@@ -1092,7 +1085,7 @@ AtlasMaps = {
 		{ ORNG..AL["Key"]..": "..AL["Skeleton Key"], ITEM, 13704 };
 		{ ORNG..AL["Key"]..": "..AL["Viewing Room Key"].." ("..AL["Viewing Room"]..")", ITEM, 13873 };
 		{ ORNG..AL["Key"]..": "..AL["Blood of Innocents"].." ("..AL["Kirtonos the Herald"]..")", ITEM, 13523 };
-		{ ORNG..AL["Key"]..": "..AL["Brazier of Invocation"].." ("..AL["Тier 0.5 Summon"]..")", ITEM, 22057 };
+		{ ORNG..AL["Key"]..": "..AL["Brazier of Invocation"].." ("..AL["Tier 0.5 Summon"]..")", ITEM, 22057 };
 		{ ORNG..AL["Key"]..": "..AL["Divination Scryer"].." ("..AL["Death Knight Darkreaver"]..")", ITEM, 18746 };
 		{ BLUE.."A) "..AL["Entrance"] };
 		{ BLUE.."B) "..AL["Connection"] };
@@ -1173,7 +1166,7 @@ AtlasMaps = {
 		{ ORNG..AL["Key"]..": "..AL["The Scarlet Key"].." ("..AL["Living Side"]..")", ITEM, 7146 };
 		{ ORNG..AL["Key"]..": "..AL["Key to the City"].." ("..AL["Undead Side"]..")", ITEM, 12382 };
 		{ ORNG..AL["Key"]..": "..AL["Various Postbox Keys"].." ("..AL["Postmaster Malown"]..")" };
-		{ ORNG..AL["Key"]..": "..AL["Brazier of Invocation"].." ("..AL["Тier 0.5 Summon"]..")", ITEM, 22057 };
+		{ ORNG..AL["Key"]..": "..AL["Brazier of Invocation"].." ("..AL["Tier 0.5 Summon"]..")", ITEM, 22057 };
 		{ BLUE.."A) "..AL["Entrance"].." ("..AL["Front"]..")" };
 		{ BLUE.."B) "..AL["Entrance"].." ("..AL["Side"]..")" };
 		{ GREY.."1) "..AL["Skul"].." ("..AL["Rare"]..", "..AL["Varies"]..")", NPC, 10393 };

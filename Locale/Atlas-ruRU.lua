@@ -134,7 +134,7 @@ AL:RegisterTranslations("ruRU", function() return {
 	["Connection"] = "Соединение";
 	["Connections"] = "Соединения";
 	["Damage: "] = "Урон: ";
-	["Тier 0.5 Summon"] = "Тир 0.5 призыв";
+	["Tier 0.5 Summon"] = "Тир 0.5 призыв";
 	["Dungeon Locations"] = "Зоны подземелий";
 	["Elevator"] = "Лифт";
 	["Front"] = "Главный";

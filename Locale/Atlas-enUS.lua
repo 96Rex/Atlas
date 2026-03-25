@@ -154,7 +154,7 @@ AL:RegisterTranslations("enUS", function() return {
 	["Connection"] = true;
 	["Connections"] = true;
 	["Damage: "] = true;
-	["Тier 0.5 Summon"] = true;
+	["Tier 0.5 Summon"] = true;
 	["Dungeon Locations"] = true;
 	["Elevator"] = true;
 	["Front"] = true;
@@ -196,6 +196,7 @@ AL:RegisterTranslations("enUS", function() return {
 	["Zul'Gurub Ring Sets"] = true;
 	["Ruins of Ahn'Qiraj Sets"] = true;
 	["Temple of Ahn'Qiraj Sets"] = true;
+	["Karazhan Sets"] = true;
 	["Tier 1 Sets"] = true;
 	["Tier 2 Sets"] = true;
 	["Tier 3 Sets"] = true;
@@ -309,6 +310,7 @@ AL:RegisterTranslations("enUS", function() return {
 	["Class Books"] = true;
 
 	--Emerald Sanctum -- TurtleWOW 1.17.0
+	["Gemstone of Ysera"] = true;
 	["Favor of Erennius (ES Hard Mode)"] = true;
 
 	--****************************
@@ -1372,6 +1374,7 @@ Dependencies: AceLibrary, AceLocale-2.2
 	["Cla'ckora"] = true,
     -- Kara40
     ["Tower of Karazhan"] = true,
+	["Upper Karazhan Tower Key"] = true,
     ["Keeper Gnarlmoon"] = true,
     ["Ley-Watcher Incantagos"] = true,
     ["Anomalus"] = true,

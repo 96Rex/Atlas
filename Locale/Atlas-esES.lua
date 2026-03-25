@@ -173,7 +173,7 @@ AL:RegisterTranslations("esES", function() return {
 	["Connection"] = "Conexión";
 	["Connections"] = "Conexiones";
 	["Damage: "] = "Daño: ";
-	["Тier 0.5 Summon"] = "Tier 0.5 Invocación";
+	["Tier 0.5 Summon"] = "Tier 0.5 Invocación";
 	["Dungeon Locations"] = "Localización de las Mazmorras";
 	["Elevator"] = "Acensor";
 	["Front"] = "Frente";
