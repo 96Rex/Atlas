@@ -546,9 +546,8 @@ AtlasMaps = {
 		{ ORNG..AL["Attunement Required"] };
 		{ ORNG..AL["Key"]..": "..AL["Drakefire Amulet"], ITEM, 16309 };
 		{ BLUE.."A) "..AL["Entrance"] };
-		{ GREY.."1) "..AL["Onyxian Warders"], NPC, 12129 };
-		{ GREY.."2) "..AL["Whelp Eggs"] };
-		{ GREY.."3) "..AL["Onyxia"], NPC, 10184 };
+		{ GREY.."1) "..AL["Broodcommander Axelus"] };
+		{ GREY.."2) "..AL["Onyxia"], NPC, 10184 };
 		{ "" };
 		{ "" };
 		{ "" };
@@ -880,14 +879,13 @@ AtlasMaps = {
 		Continent = AL["Eastern Kingdoms"];
 		{ ORNG..AL["Attunement Required"] };
 		{ BLUE.."A) "..AL["Entrance"] };
-		{ BLUE.."B) "..AL["Connection"] };
-		{ BLUE.."C) "..AL["Connection"] };
 		{ GREY.."1) "..AL["Razorgore the Untamed"], NPC, 12435 };
 		{ GREY.."2) "..AL["Vaelastrasz the Corrupt"], NPC, 13020 };
 		{ GREY.."3) "..AL["Broodlord Lashlayer"], NPC, 12017 };
 		{ GREY.."4) "..AL["Firemaw"], NPC, 11983 };
-		{ GREY.."5) "..AL["Master Elemental Shaper Krixix"], NPC, 14401 };
+		{ GREY.."5) "..AL["Ezzel Darkbrewer"] };
 		{ GREY.."6) "..AL["Ebonroc"], NPC, 14601 };
+		{ GREY..INDENT..AL["Master Elemental Shaper Krixix"], NPC, 14401 };
 		{ GREY.."7) "..AL["Flamegor"], NPC, 11981 };
 		{ GREY.."8) "..AL["Chromaggus"], NPC, 14020 };
 		{ GREY.."9) "..AL["Nefarian"], NPC, 11583 };

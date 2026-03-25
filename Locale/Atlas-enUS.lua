@@ -1449,4 +1449,6 @@ Dependencies: AceLibrary, AceLocale-2.2
 	["Prophet Stormhoof"] = true,
 	["Chieftain Shalk Blackwind"] = true,
 
+	["Ezzel Darkbrewer"] = true,
+	["Broodcommander Axelus"] = true,
 } end)
