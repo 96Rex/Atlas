@@ -56,7 +56,25 @@ AtlasMaps = {
 --************************************************
 -- Kalimdor Instances
 --************************************************
-
+	WindhornCanyon = {
+		ZoneName = { AL["Windhorn Canyon"] };
+		Acronym = "WHC";
+		Location = { AL["Thousand Needles"] };
+		LevelRange = "25-33";
+		MinLevel = "25";
+		PlayerLimit = "5";
+		Continent = AL["Kalimdor"];
+		{ BLUE.."A) "..AL["Entrance"] };
+		{ GREY.."1) "..AL["Pathun Duskhide"] };
+		{ GREY.."2) "..AL["Ahgk'tos the Pure"] };
+		{ GREY.."3) "..AL["Ambassador Vortalus"] };
+		{ GREY.."4) "..AL["Walgan Bloodcaller"] };
+		{ GREY.."5) "..AL["Bonespeaker Narlgom"] };
+		{ GREY.."6) "..AL["Prophet Stormhoof"] };
+		{ GREY.."7) "..AL["Chieftain Shalk Blackwind"] };
+		-- { "" };
+		-- { GREY..INDENT..AL["Trash Mobs"] };
+	};
 	RagefireChasm = {
 		ZoneName = { AL["Ragefire Chasm"], 2437 };
 		Acronym = "RFC";
@@ -626,6 +644,23 @@ AtlasMaps = {
 --************************************************
 -- Eastern Kingdoms Instances
 --************************************************
+	FrostmaneHollow = {
+		ZoneName = { AL["Frostmane Hollow"] };
+		Acronym = "FMH";
+		Location = { AL["Dun Morogh"] };
+		LevelRange = "13-20";
+		MinLevel = "13";
+		PlayerLimit = "5";
+		Continent = AL["Eastern Kingdoms"];
+		{ BLUE.."A) "..AL["Entrance"] };
+		{ GREY.."1) "..AL["Tan'sha the Sleek"] };
+		{ GREY..INDENT..AL["Handler Oboka"] };
+		{ GREY.."2) "..AL["Kan'za the Seer"] };
+		{ GREY.."3) "..AL["Battlemaster Ubukaz"] };
+		{ GREY.."4) "..AL["Hailar the Frigid"] };
+		-- { "" };
+		-- { GREY..INDENT..AL["Trash Mobs"] };
+	};
 	DragonmawRetreat = {
 		ZoneName = { AL["Dragonmaw Retreat"], -1 };
 		Acronym = "DMR";

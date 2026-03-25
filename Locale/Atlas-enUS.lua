@@ -1433,4 +1433,20 @@ Dependencies: AceLibrary, AceLocale-2.2
 	["Subjugator Halthas Shadecrest"] = true,
 	["Mergothid"] = true,
 
+	["Frostmane Hollow"] = true,
+	["Handler Oboka"] = true,
+	["Tan'sha the Sleek"] = true,
+	["Kan'za the Seer"] = true,
+	["Battlemaster Ubukaz"] = true,
+	["Hailar the Frigid"] = true,
+	
+	["Windhorn Canyon"] = true,
+	["Pathun Duskhide"] = true,
+	["Ahgk'tos the Pure"] = true,
+	["Ambassador Vortalus"] = true,
+	["Walgan Bloodcaller"] = true,
+	["Bonespeaker Narlgom"] = true,
+	["Prophet Stormhoof"] = true,
+	["Chieftain Shalk Blackwind"] = true,
+
 } end)

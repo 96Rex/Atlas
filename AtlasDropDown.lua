@@ -71,6 +71,7 @@ Atlas_DropDownLayouts_Order = {
 Atlas_DropDownLayouts = {
 	[ATLAS_DDL_CONTINENT] = {
 		[ATLAS_DDL_CONTINENT_EASTERN] = {
+			"FrostmaneHollow",
 			"BlackrockDepths",
 			"BlackrockSpireLower",
 			"BlackrockSpireUpper",
@@ -100,6 +101,7 @@ Atlas_DropDownLayouts = {
 			"ZulGurub",
 		},
 		[ATLAS_DDL_CONTINENT_KALIMDOR] = {
+			"WindhornCanyon",
 			"BlackfathomDeeps",
 			"CavernsOfTimeBlackMorass", -- TurtleWOW
 			"TheCrescentGrove", -- TurtleWOW
@@ -162,6 +164,8 @@ Atlas_DropDownLayouts = {
 	},
 	[ATLAS_DDL_PARTYSIZE] = {
 		[ATLAS_DDL_PARTYSIZE_5] = {
+			"FrostmaneHollow",
+			"WindhornCanyon",
 			"CavernsOfTimeBlackMorass", -- TurtleWOW
 			"BlackrockDepths",
 			"TheCrescentGrove", --TurtleWOW
@@ -258,6 +262,8 @@ Atlas_DropDownLayouts = {
 	},
 	[ATLAS_DDL_TYPE] = {
 		[ATLAS_DDL_TYPE_DUNGEONS] = {
+			"FrostmaneHollow",
+			"WindhornCanyon",
 			"BlackfathomDeeps",
 			"CavernsOfTimeBlackMorass", -- TurtleWOW
 			"BlackrockDepths",
