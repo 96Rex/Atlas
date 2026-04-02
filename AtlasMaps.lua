@@ -56,6 +56,29 @@ AtlasMaps = {
 --************************************************
 -- Kalimdor Instances
 --************************************************
+	TimbermawHold = {
+		ZoneName = { AL["Timbermaw Hold"] };
+		Acronym = "TMH";
+		Location = { AL["Azshara"] };
+		LevelRange = "60+";
+		MinLevel = "60";
+		PlayerLimit = "20";
+		Continent = AL["Kalimdor"];
+		{ BLUE.."A) "..AL["Entrance"] };
+		{ BLUE.."B) "..AL["Entrance"] };
+		{ GREY.."1) "..AL["Karrsh the Sentinel"] };
+		{ GREY.."2) "..AL["Rotgrowl"] };
+		{ GREY.."3) "..AL["Loktanag the Vile"] };
+		{ GREY.."4) "..AL["Ormanos the Cracked"] };
+		{ GREY.."5) "..AL["Chieftain Partath"] };
+		{ GREY.."6) "..AL["Archdruid Kronn"] };
+		{ GREY.."7) "..AL["Selenaxx Foulheart"] };
+		{ GREY.."8) "..AL["Trioch the Devourer"] };
+		{ GREY.."9) "..AL["Ursol"] };
+		{ GREY..INDENT..AL["Peroth'arn"] };
+		-- { "" };
+		-- { GREY..INDENT..AL["Trash Mobs"] };
+	};
 	WindhornCanyon = {
 		ZoneName = { AL["Windhorn Canyon"] };
 		Acronym = "WHC";

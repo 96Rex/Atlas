@@ -101,6 +101,7 @@ Atlas_DropDownLayouts = {
 			"ZulGurub",
 		},
 		[ATLAS_DDL_CONTINENT_KALIMDOR] = {
+			"TimbermawHold",
 			"WindhornCanyon",
 			"BlackfathomDeeps",
 			"CavernsOfTimeBlackMorass", -- TurtleWOW
@@ -205,6 +206,7 @@ Atlas_DropDownLayouts = {
 			"LowerKara", -- -- TurtleWOW 1.17.0
 		},
 		[ATLAS_DDL_PARTYSIZE_20] = {
+			"TimbermawHold",
 			"TheRuinsofAhnQiraj",
 			"ZulGurub",
 		},
@@ -299,6 +301,7 @@ Atlas_DropDownLayouts = {
 			"ZulFarrak",
 		},
 		[ATLAS_DDL_TYPE_RAIDS] = {
+			"TimbermawHold",
 			"BlackwingLair",
 			"EmeraldSanctum", -- TurtleWOW 1.17.0
 			"LowerKara", -- -- TurtleWOW 1.17.0

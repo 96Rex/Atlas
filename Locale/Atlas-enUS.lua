@@ -1436,6 +1436,18 @@ Dependencies: AceLibrary, AceLocale-2.2
 	["Subjugator Halthas Shadecrest"] = true,
 	["Mergothid"] = true,
 
+	["Timbermaw Hold"] = true,
+	["Karrsh the Sentinel"] = true,
+	["Rotgrowl"] = true,
+	["Loktanag the Vile"] = true,
+	["Ormanos the Cracked"] = true,
+	["Chieftain Partath"] = true,
+	["Archdruid Kronn"] = true,
+	["Selenaxx Foulheart"] = true,
+	["Trioch the Devourer"] = true,
+	["Ursol"] = true,
+	["Peroth'arn"] = true,
+	
 	["Frostmane Hollow"] = true,
 	["Handler Oboka"] = true,
 	["Tan'sha the Sleek"] = true,
