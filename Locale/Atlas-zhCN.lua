@@ -21,11 +21,11 @@
 	
 --]]
 
--- Atlas English Localization
+-- Atlas Chinese Localization
 -- Many thanks to all contributors!
 
 --************************************************
--- Global Atlas Strings
+-- 全局字符串
 --************************************************
 local AL = AceLibrary("AceLocale-2.2"):new("Atlas");
 if ( GetLocale() ==	"zhCN" ) then
@@ -86,8 +86,8 @@ if ( GetLocale() ==	"zhCN" ) then
 	ATLAS_DDL_TYPE_ENTRANCE = "入口";
 	ATLAS_DDL_BGS = "战场";
 	ATLAS_DDL_DUNGEON_LOCATIONS = "副本位置";
-	ATLAS_DDL_FLIGHT_PATHS = "飞行路线图";
-	ATLAS_DDL_TRANSPORT_ROUTES = "交通路线";
+	ATLAS_DDL_FLIGHT_PATHS = "飞行航线";
+	ATLAS_DDL_TRANSPORT_ROUTES = "运船航线";
 	ATLAS_INSTANCE_BUTTON = "副本";
 	ATLAS_ENTRANCE_BUTTON = "入口";
 	ATLAS_SEARCH_UNAVAIL = "搜索不可用";
@@ -100,20 +100,20 @@ end
 AL:RegisterTranslations("zhCN", function() return {
 	
 	--************************************************
-	-- Zone Names, Acronyms, and Common Strings
+	-- 区域名, 缩写词, 通用字符串
 	--************************************************
 	["Transport Routes"] = "交通路线";
 	["Azeroth"] = "艾泽拉斯";
 	["Sparkwater Port"] = "怒水港";
-	--Common strings
+	--通用字符串
 	["Atlas Options"] = "Atlas 选项";
-	--Colors
+	--颜色
 	["Blue"] = "蓝色";
 	["Purple"] = "紫色";
 	["Red"] = "红色";
 	["Orange"] = "橙色";
 	["White"] = "白色";
-	--Mobs types
+	--生物类型
 	["Boss"] = "首领";
 	["Rare"] = "稀有";
 	["Bat"] = "蝙蝠";
@@ -124,17 +124,17 @@ AL:RegisterTranslations("zhCN", function() return {
 	["Panther"] = "黑豹";
 	["Pet"] = "宠物";
 	["Engineer"] = "工程师";
-	--Magic types
+	--法术类型
 	["Fire"] = "火焰";
 	["Nature"] = "自然";
 	["Frost"] = "冰霜";
 	["Shadow"] = "暗影";
 	["Arcane"] = "奥术";
-	--Events
+	--活动
 	["Hallow's End"] = "万圣节";
 	["Scourge Invasion"] = "天灾入侵";		
 	["Lunar Festival"] = "春节";
-	--Other
+	--其他
 	["East"] = "东";
 	["North"] = "北";
 	["South"] = "南";
@@ -183,14 +183,14 @@ AL:RegisterTranslations("zhCN", function() return {
 	["Various"] = "各种各样";
 	["Wanders"] = "游荡";
 	
-	--Instance names and acronyms
+	--特殊副本名称
 	["Armory"] = "军械库";
 	["Cathedral"] = "大教堂";
 	["Graveyard"] = "墓地";
 	["Library"] = "图书馆";
 	["Sunken Temple"] = "沉没的神庙";
 	
-	--Set names
+	--套装名
 	["Set: "] = "套装: ";
 	["Tier 0/0.5 Sets"] = "T0/T0.5 套装";
 	["Zul'Gurub Sets"] = "祖尔格拉布套装";
@@ -202,13 +202,13 @@ AL:RegisterTranslations("zhCN", function() return {
 	["Tier 3 Sets"] = "T3 套装";
 	
 	--************************************************
-	-- Kalimdor Instance Data
+	-- 卡利姆多副本数据
 	--************************************************
 	
-	--Wailing Caverns
+	--哀嚎洞穴
 	["Mysterious Wailing Caverns Chest"] = "神秘的哀嚎洞穴宝箱";
 	
-	--Blackfathom Deeps
+	--黑暗深渊
 	["Lorgalis Manuscript"] = "洛迦里斯手稿";
 	["Argent Guard Thaelrid"] = "银月守卫塞尔瑞德";
 	["Shrine of Gelihast"] = "格里哈斯特神殿";
@@ -216,20 +216,20 @@ AL:RegisterTranslations("zhCN", function() return {
 	["Morridune"] = "莫瑞杜恩";
 	["Altar of the Deeps"] = "玛塞斯特拉祭坛";
 
-	--The Crescent Grove
+	--新月林地
 	["Kalanar's Strongbox"] = "卡拉纳尔的保险箱"; -- TurtleWOW
 
-	--Razorfen Kraul
+	--剃刀沼泽
 	["Razorfen Spearhide"] = "剃刀沼泽刺鬃守卫";
 	["Willix the Importer"] = "进口商威利克斯";
 	["Heralath Fallowbrook"] = "赫尔拉斯·静水";
 	
-	--Razorfen Downs
+	--剃刀高地
 	["Henry Stern"] = "亨利·斯特恩";
 	["Belnistrasz"] = "奔尼斯特拉兹";
 	["Sah'rhee"] = "萨哈斯";
 	
-	--Zul'Farrak
+	--祖尔法拉克
 	["Mallet of Zul'Farrak"] = "祖尔法拉克之槌";
 	["Theka the Martyr"] = "殉教者塞卡";
 	["Zul'Farrak Dead Hero"] = "祖尔法拉克阵亡英雄";
@@ -246,19 +246,19 @@ AL:RegisterTranslations("zhCN", function() return {
 	["Zerillis"] = "泽雷利斯";
 	["Sandarr Dunereaver"] = "杉达尔·沙掠者";
 	
-	--Maraudon	
+	--玛拉顿
 	["Scepter of Celebras"] = "塞雷布拉斯节杖";
 	["Veng"] = "温格";
 	["Maraudos"] = "玛拉多斯";
 	["Elder Splitrock"] = "裂石长者";
 	
-	--Dire Maul (East)
+	--厄运之槌(东)
 	["Old Ironbark"] = "老铁皮";
 	["A Dusty Tome"] = "布满灰尘的书籍";
 	["Felvine Shard"] = "魔藤碎片";
 	["Dire Maul Books"] = "厄运之槌书籍";
 	
-	--Dire Maul (North)
+	--厄运之槌(北)
 	["Crescent Key"] = "月牙钥匙";--从厄运之槌（西）省略
 	["Gordok Courtyard Key"] = "戈多克庭院钥匙";
 	["Gordok Inner Door Key"] = "戈多克内门钥匙";
@@ -266,7 +266,7 @@ AL:RegisterTranslations("zhCN", function() return {
 	["Knot Thimblejack"] = "诺特·希姆加克";
 	["Tribute Run"] = "贡品流程";
 	
-	--Dire Maul (West)
+	--厄运之槌(西)
 	["J'eevee's Jar"] = "耶维尔的瓶子";
 	["Pylons"] = "水晶塔";
 	["Shen'dralar Ancient"] = "辛德拉古灵";
@@ -281,12 +281,12 @@ AL:RegisterTranslations("zhCN", function() return {
 	["Skeletal Remains of Kariel Winthalus"] = "卡里尔·温萨鲁斯的骸骨";
 	["The Prince's Chest"] = "王子的箱子";
 	
-	--Onyxia's Lair
+	--奥妮克希亚的巢穴
 	["Drakefire Amulet"] = "龙火护符";
 	["Onyxian Warders"] = "奥妮克希亚守卫";
 	["Whelp Eggs"] = "幼龙蛋";
 	
-	--Temple of Ahn'Qiraj
+	--安其拉神殿
 	["Bug Trio"] = "虫子三兄弟";
 	["Andorgos"] = "安多葛斯";
 	["Vethsera"] = "温瑟拉";
@@ -297,7 +297,7 @@ AL:RegisterTranslations("zhCN", function() return {
 	["AQ Enchants"] = "安其拉附魔";
 	["AQ Opening Quest Chain"] = "安其拉开门任务链";
 	
-	--Ruins of Ahn'Qiraj
+	--安其拉废墟
 	["Four Kaldorei Elites"] = "四位卡多雷精英";
 	["Captain Qeez"] = "奎兹上尉";
 	["Captain Tuubid"] = "图毕德上尉";
@@ -309,16 +309,17 @@ AL:RegisterTranslations("zhCN", function() return {
 	["Safe Room"] = "安全屋";
 	["Class Books"] = "职业书籍";
 
-	--Emerald Sanctum -- TurtleWOW 1.17.0
+	--翡翠圣殿 -- TurtleWOW 1.17.0
+	["Gemstone of Ysera"] = "伊瑟拉宝钻";
 	["Favor of Erennius (ES Hard Mode)"] = "埃伦纽斯的青睐（翡翠圣殿困难模式）";
 
 	--****************************
-	-- Eastern Kingdoms Instances
+	-- 东部王国副本
 	--****************************
 	
 	
 
-	--Blackrock Depths
+	--黑石深渊
 	["Shadowforge Key"] = "暗炉钥匙";
 	["Prison Cell Key"] = "监狱牢房钥匙";
 	["Jail Break!"] = "越狱！";
@@ -355,7 +356,7 @@ AL:RegisterTranslations("zhCN", function() return {
 	["The Black Forge"] = "黑铁熔炉";
 	["Core Fragment"] = "熔火碎片";
 
-	--Blackrock Spire (Lower)
+	--黑石塔(下层)
 	["Vaelan"] = "维埃兰";
 	["Warosh"] = "瓦罗什";
 	["Elder Stonefort"] = "石垒长者";
@@ -372,7 +373,7 @@ AL:RegisterTranslations("zhCN", function() return {
 	["Urok's Tribute Pile"] = "乌洛克的贡品堆";
 	["Burning Felguard"] = "燃烧恶魔守卫";
 	
-	--Blackrock Spire (Upper)
+	--黑石塔(上层)
 	["Seal of Ascension"] = "晋升印章";
 	["Father Flame"] = "烈焰之父";
 	["Darkstone Tablet"] = "黑暗石板";
@@ -381,12 +382,12 @@ AL:RegisterTranslations("zhCN", function() return {
 	["Finkle Einhorn"] = "芬克·恩霍尔";
 	["Drakkisath's Brand"] = "达基萨斯的烙印";
 	
-	--Blackwing Lair
+	--黑翼之巢
 	["Draconic for Dummies"] = "龙语傻瓜教程";
 	["Master Elemental Shaper Krixix"] = "大元素师克里希克";
 	["Alchemy Lab"] = "炼金实验室";
 	
-	--Gnomeregan
+	--诺莫瑞根
 	["Workshop Key"] = "车间钥匙";
 	["Blastmaster Emi Shortfuse"] = "爆破专家艾米·短线";
 	["Clean Room"] = "洁净室";
@@ -399,12 +400,12 @@ AL:RegisterTranslations("zhCN", function() return {
 	["Matrix Punchograph 3005-C"] = "矩阵式打孔计算机3005-C";
 	["Matrix Punchograph 3005-D"] = "矩阵式打孔计算机3005-D";
 	
-	--Molten Core
+	--熔火之心
 	["Aqual Quintessence"] = "水之精萃";
 	["Eternal Quintessence"] = "永恒精萃";
 	["Random Boss Loot"] = "随机首领掉落";
 	
-	--Naxxramas
+	--纳克萨玛斯
 	["Archmage Tarsis Kir-Moldir"] = "大法师塔希斯·克摩地尔";
 	["Mr. Bigglesworth"] = "比格沃斯先生";
 	["Abomination Wing"] = "憎恶区";
@@ -414,16 +415,16 @@ AL:RegisterTranslations("zhCN", function() return {
 	["Plague Wing"] = "瘟疫区";
 	["Frostwyrm Lair"] = "冰霜巨龙巢穴";
 	
-	--SM: Library
+	--血色修道院-图书馆
 	["Doan's Strongbox"] = "杜安的保险箱";
 	
-	--SM: Armory
+	--血色修道院-军械库
 	["The Scarlet Key"] = "血色十字军钥匙";--从血色修道院：大教堂省略
 	
-	--SM: Graveyard
+	--血色修道院-大教堂
 	["Vorrel Sengutz"] = "沃瑞尔·森加斯";
 	
-	--Scholomance
+	--通灵学院
 	["Skeleton Key"] = "骷髅钥匙";
 	["Viewing Room Key"] = "观察室钥匙";
 	["Viewing Room"] = "观察室";
@@ -438,7 +439,7 @@ AL:RegisterTranslations("zhCN", function() return {
 	["Torch Lever"] = "火炬拉杆";
 	["Old Treasure Chest"] = "旧宝藏箱";
 	
-	--Shadowfang Keep
+	--影牙城堡
 	["Deathstalker Adamant"] = "亡灵哨兵阿达曼特";
 	["Landen Stilwell"] = "兰登·斯蒂威尔";
 	["Deathstalker Vincent"] = "亡灵哨兵文森特";
@@ -448,7 +449,7 @@ AL:RegisterTranslations("zhCN", function() return {
 	["Arugal's Voidwalker"] = "阿鲁高的虚空行者";
 	["The Book of Ur"] = "乌尔之书";
 	
-	--Stratholme
+	--斯坦索姆
 	["Key to the City"] = "城市大门钥匙";
 	["Various Postbox Keys"] = "各种邮筒钥匙";
 	["Living Side"] = "生者区域";
@@ -469,11 +470,11 @@ AL:RegisterTranslations("zhCN", function() return {
 	["Fras Siabi's Postbox"] = "弗拉斯·希亚比的邮箱";
 	["Third Postbox Opened"] = "第三个邮筒已打开";
 	
-	--The Deadmines
+	--死亡矿井
 	["Sneed's Shredder"] = "斯尼德的伐木机";
 	["Defias Gunpowder"] = "迪菲亚火药";
 	
-	--The Sunken Temple
+	--沉没的神庙
 	["Yeh'kinya's Scroll"] = "叶基亚的卷轴";
 	["Balcony Minibosses"] = "阳台小首领";
 	["Altar of Hakkar"] = "哈卡祭坛";
@@ -483,7 +484,7 @@ AL:RegisterTranslations("zhCN", function() return {
 	["Statue Activation Order"] = "雕像激活顺序";
 	["Malfurion Stormrage"] = "玛法里恩·怒风";
 	
-	--Uldaman
+	--奥达曼
 	["Staff of Prehistoria"] = "史前法杖";
 	["Baelog's Chest"] = "巴尔洛戈的箱子";
 	["Conspicuous Urn"] = "显眼的石罐";
@@ -494,7 +495,7 @@ AL:RegisterTranslations("zhCN", function() return {
 	["The Discs of Norgannon"] = "诺甘农圆盘";
 	["Ancient Treasure"] = "古代宝藏";
 	
-	--Zul'Gurub
+	--祖尔格拉布
 	["Mudskunk Lure"] = "臭泥鱼诱饵";
 	["Gurubashi Mojo Madness"] = "古拉巴什疯狂魔精";
 	["Zanza the Restless"] = "无法安息的赞札";
@@ -506,14 +507,14 @@ AL:RegisterTranslations("zhCN", function() return {
 	["Jinxed Hoodoo Pile"] = "厄运巫毒堆";
 	["ZG Enchants"] = "祖尔格拉布附魔";	
 
-	--Lower Karazhan Halls --TurtleWOW 1.17.0
+	--卡拉赞大厅 --TurtleWOW 1.17.0
 	["LKH Enchants"] = "下层卡拉赞大厅附魔";	
 	
 	--************************************************
-	-- Instance Entrance Maps
+	-- 东部王国副本地图
 	--************************************************
 	
-	--Blackrock Mountain (Entrance)
+	--黑石山 (入口)
 	["Bodley"] = "布德利";
 	["Overmaster Pyron"] = "征服者派隆";
 	["Lothos Riftwaker"] = "洛索斯·天痕";
@@ -521,14 +522,14 @@ AL:RegisterTranslations("zhCN", function() return {
 	["Orb of Command"] = "命令宝珠";
 	["Scarshield Quartermaster"] = "裂盾军需官";
 	
-	--Gnomeregan (Entrance)
+	--诺莫瑞根 (入口)
 	["Transpolyporter"] = "传送器";
 	["Sprok"] = "斯普洛克";
 	["Matrix Punchograph 3005-A"] = "矩阵式打孔计算机3005-A";
 	["Namdo Bizzfizzle"] = "纳姆杜·比兹菲兹";
 	["Techbot"] = "尖端机器人";
 	
-	--Maraudon (Entrance)
+	--玛拉顿 (入口)
 	["The Nameless Prophet"] = "无名预言者";
 	["Kolk"] = "考尔克";
 	["Gelk"] = "吉尔克";
@@ -536,18 +537,18 @@ AL:RegisterTranslations("zhCN", function() return {
 	["Cavindra"] = "凯雯德拉";
 	["Cursed Centaur"] = "被诅咒的半人马";
 	
-	--The Deadmines (Entrance)
+	--死亡矿井 (入口)
 	["Marisa du'Paige"] = "玛里莎·杜派格";
 	["Brainwashed Noble"] = "被洗脑的贵族";
 	["Foreman Thistlenettle"] = "工头希斯耐特";
 	
-	--Sunken Temple (Entrance)
+	--沉没的神庙 (入口)
 	["Jade"] = "玉龙";
 	["Kazkaz the Unholy"] = "邪恶的卡萨卡兹";
 	["Zekkis"] = "泽基斯";
 	["Veyzhak the Cannibal"] = "食尸者维萨克";
 	
-	--Uldaman (Entrance)
+	--奥达曼 (入口)
 	["Hammertoe Grez"] = "铁趾格雷兹";
 	["Magregan Deepshadow"] = "马格雷甘·深影";
 	["Tablet of Ryun'Eh"] = "莱恩之匾";
@@ -555,7 +556,7 @@ AL:RegisterTranslations("zhCN", function() return {
 	["Garrett Family Chest"] = "加勒特的宝箱";
 	["Digmaster Shovelphlange"] = "挖掘专家舒尔弗拉格";
 	
-	--Wailing Caverns (Entrance)
+	--哀嚎洞穴 (入口)
 	["Mad Magglish"] = "疯狂的马格利什";
 	["Trigore the Lasher"] = "鞭笞者特里高雷";
 	["Boahn"] = "博艾恩";
@@ -565,7 +566,7 @@ AL:RegisterTranslations("zhCN", function() return {
 	["Kalldan Felmoon"] = "卡尔丹·暗月";
 	["Waldor"] = "瓦多尔";
 	
-	--Dire Maul (Entrance)
+	--厄运之槌 (入口)
 	["Dire Pool"] = "厄运之池";
 	["Dire Maul Arena"] = "厄运之槌竞技场";
 	["Mushgog"] = "姆斯高格";
@@ -574,7 +575,7 @@ AL:RegisterTranslations("zhCN", function() return {
 	["Elder Mistwalker"] = "迷雾长者";
 	["Griniblix the Spectator"] = "目击者格林比克斯";
 	
-	--World Bosses
+	--世界首领
 	["Emerald Dragons"] = "翡翠巨龙";
 	["Spirit of Azuregos"] = "艾索雷葛斯之魂";
 	["Emerald Dragons Trash"] = "翡翠巨龙小怪";
@@ -585,7 +586,7 @@ AL:RegisterTranslations("zhCN", function() return {
 	["Revered Reputation Rewards"] = "崇敬声望奖励";
 	["Exalted Reputation Rewards"] = "崇拜声望奖励";
 	
-	--Alterac Valley (North)
+	--奥特兰克山谷 (北)
 	["Stormpike Guard"] = "雷矛卫队";
 	["Dun Baldar"] = "丹巴达尔";
 	["Vanndar Stormpike"] = "范达尔·雷矛";
@@ -650,7 +651,7 @@ AL:RegisterTranslations("zhCN", function() return {
 	["Assault NPCs, Quest Areas"] = "突袭NPC，任务区域";--从AVS省略
 	["Steamsaw"] = "蒸汽锯";--从AVS省略
 	
-	--Alterac Valley (South)
+	--奥特兰克山谷 (南)
 	["Frostwolf Clan"] = "霜狼氏族";
 	["Frostwolf Keep"] = "霜狼要塞";
 	["Drek'Thar"] = "德雷克塔尔";
@@ -688,7 +689,7 @@ AL:RegisterTranslations("zhCN", function() return {
 	["Wildpaw Cavern"] = "蛮爪洞穴";
 	["Frostwolf Banner"] = "霜狼军旗";
 	
-	--Arathi Basin
+	--阿拉希盆地
 	["The Defilers"] = "污染者";
 	["The League of Arathor"] = "阿拉索联军";
 	["Trollbane Hall"] = "托尔贝恩大厅";
@@ -699,13 +700,13 @@ AL:RegisterTranslations("zhCN", function() return {
 	["Lumber Mill"] = "伐木场";
 	["Farm"] = "农场";
 	
-	--Warsong Gulch
+	--战歌峡谷
 	["Warsong Outriders"] = "战歌侦察兵";
 	["Silverwing Sentinels"] = "银翼哨兵";
 	["Silverwing Hold"] = "银翼要塞";
 	["Warsong Lumber Mill"] = "战歌伐木场";
 	
-	--Flight points
+	--飞行点
 	["Flight Path Maps"] = "飞行路线图";
 	["Druid-only"] = "仅德鲁伊";
 	["Aerie Peak"] = "鹰巢山";
@@ -1001,20 +1002,20 @@ Dependencies: AceLibrary, AceLocale-2.2
 	["Ghamoo-ra"] = "加摩拉";
 	["Lady Sarevess"] = "萨利维丝女士";
 	["Gelihast"] = "格里哈斯特";
-	-- TheCrescentGrove TurtleWOW
+	-- 新月林地 TurtleWOW
 	["Grovetender Engryss"] = "护林员恩格里斯";
 	["Keeper Ranathos"] = "守护者拉纳苏斯";
 	["High Priestess A'lathea"] = "高阶女祭司阿勒西";
 	["Fenektis the Deceiver"] = "欺诈者弗纳克提斯";
 	["Master Raxxieth"] = "拉克西斯大师";
-	-- HateforgeQuarry TurtleWOW
+	-- 仇恨熔炉采石场 TurtleWOW
 	["High Foreman Bargul Blackhammer"] = "高级工头巴古·黑锤";
 	["Engineer Figgles"] = "工程师菲格尔斯";
 	["Hateforge Chemistry Documents"] = "仇恨熔炉化学文档";
 	["Corrosis"] = "腐蚀西斯";
 	["Hatereaver Annihilator"] = "憎恨歼灭者";
 	["Hargesh Doomcaller"] = "哈格什·末日召唤者";
-	-- KarazhanCrypt TurtleWOW
+	-- 卡拉赞墓穴 TurtleWOW
 	["Marrowspike"] = "髓刺";
 	["Hivaxxis"] = "西瓦克西斯";
 	["Corpsemuncher"] = "嚼尸鬼";
@@ -1023,7 +1024,7 @@ Dependencies: AceLibrary, AceLocale-2.2
 	["Commander Andreon"] = "指挥官安德里昂";
 	["Alarus"] = "阿拉鲁斯";
 	["Half-Buried Treasure Chest"] = "半埋宝箱";
-	-- CavernsOfTimeBlackMorass TurtleWOW
+	-- 黑色沼泽 TurtleWOW
 	["Chronar"] = "克罗纳";
 	["Harbinger Aph'ygth"] = "先驱者阿菲格斯";
 	["Epidamu"] = "埃皮达姆";
@@ -1033,7 +1034,7 @@ Dependencies: AceLibrary, AceLocale-2.2
 	["Rotmaw"] = "腐烂之喉";
 	["Antnormi"] = "安特诺米";
 	["Infinite Chromie"] = "无限克罗米";
-	-- StormwindVault TurtleWOW
+	-- 暴风城地牢 TurtleWOW
 	["Aszosh Grimflame"] = "艾丝卓仕·格瑞姆弗雷姆";
 	["Tham'Grarr"] = "塞姆格拉";
 	["Black Bride"] = "黑色新娘";
@@ -1042,7 +1043,7 @@ Dependencies: AceLibrary, AceLocale-2.2
 	["Volkan Cruelblade"] = "沃肯·冷刃";
 	["Arc'tiras"] = "阿克提阿斯";
 	["Vault Armory Equipment"] = "避难所军械库设备";
-	-- GilneasCity TurtleWOW 1.17.0
+	-- 吉尔尼斯城 TurtleWOW 1.17.0
 	["Matthias Holtz"] = "马蒂亚斯·霍尔茨";
 	["Packmaster Ragetooth"] = "兽群首领怒牙";
 	["Dawnstone Plans"] = "黎明石计划";
@@ -1051,7 +1052,7 @@ Dependencies: AceLibrary, AceLocale-2.2
 	["Dustivan Blackcowl"] = "达斯蒂万·布莱克考尔";
 	["Marshal Magnus Greystone"] = "元帅马格努斯·格雷斯通";
 	["Horsemaster Levvin"] = "御马司莱文";
-	-- LowerKara TurtleWOW 1.17.0
+	-- 卡拉赞大厅 TurtleWOW 1.17.0
 	["Master Blacksmith Rolfen"] = "锻造大师罗尔芬";
 	["Engraved Golden Bracelet"] = "雕花金手镯";
 	["Comfortable Pillow"] = "舒适的枕头";
@@ -1065,7 +1066,7 @@ Dependencies: AceLibrary, AceLocale-2.2
 	["Moroes"] = "莫罗斯";
 	["Harlow Family Chest"] = "哈洛家庭宝箱";
 	["Genn Greymane"] = "吉恩·格雷迈恩";
-	-- EmeraldSanctum TurtleWOW 1.17.0
+	-- 翡翠圣殿 TurtleWOW 1.17.0
 	["Erennius"] = "埃伦纽斯";
 	["Solnius the Awakener"] = "觉醒者索尔纽斯";
 	["Clawlord Howlfang"] = "爪王嚎牙";
@@ -1323,9 +1324,9 @@ Dependencies: AceLibrary, AceLocale-2.2
 	["Moomoo Grove"] = "奶牛树林";
 	["Blood Ring Arena"] = "血色竞技场";
 	["Sunnyglade Valley"] = "阳光林地山谷";
-	-- Burning Crusade
+	-- TBC
 	
-	-- Subzones used for displaying instances.
+	-- 用于显示副本的子区域
 	["Plaguewood"] = "病木林";
 	["Hellfire Citadel"] = "地狱火堡垒";
 	["Auchindoun"] = "奥金顿";
@@ -1371,8 +1372,9 @@ Dependencies: AceLibrary, AceLocale-2.2
 	["Zul'Aman"] = "祖阿曼";
 	["Moo"] = "奶牛之王";
 	["Cla'ckora"] = "克拉科拉";
-    -- Kara40
+    -- 卡拉赞之塔
     ["Tower of Karazhan"] = "卡拉赞之塔";
+	["Upper Karazhan Tower Key"] = "上层卡拉赞塔之钥",
     ["Keeper Gnarlmoon"] = "守护者纳尔穆恩";
     ["Ley-Watcher Incantagos"] = "魔网观察者因塔苟斯";
     ["Anomalus"] = "阿诺玛鲁斯";
@@ -1433,5 +1435,35 @@ Dependencies: AceLibrary, AceLocale-2.2
 	["Remains of the Innocent"] = "无辜者的遗骸";
 	["Subjugator Halthas Shadecrest"] = "征服者哈尔萨斯·暗影之冠";
 	["Mergothid"] = "墨苟斯";
+	-- patch 1.18.1
+	["Timbermaw Hold"] = "木喉要塞",
+	["Karrsh the Sentinel"] = "哨兵卡什",
+	["Rotgrowl"] = "腐嚎",
+	["Loktanag the Vile"] = "落潭",
+	["Ormanos the Cracked"] = "裂地者欧曼诺斯",
+	["Chieftain Partath"] = "大酋长帕萨斯",
+	["Archdruid Kronn"] = "大德鲁伊科罗恩",
+	["Selenaxx Foulheart"] = "塞雷纳克斯·腐心",
+	["Trioch the Devourer"] = "吞噬者提里奥克",
+	["Ursol"] = "乌索尔",
+	["Peroth'arn"] = "佩罗萨恩",
+	
+	["Frostmane Hollow"] = "霜鬃峡谷",
+	["Handler Oboka"] = "训练师奥博卡",
+	["Tan'sha the Sleek"] = "灵动的坦莎",
+	["Kan'za the Seer"] = "先知坎扎",
+	["Battlemaster Ubukaz"] = "战场主宰乌布卡兹",
+	["Hailar the Frigid"] = "冰冷的海乐",
+	
+	["Windhorn Canyon"] = "风角峡谷",
+	["Pathun Duskhide"] = "帕斯恩·暮皮",
+	["Ahgk'tos the Pure"] = "纯洁者阿格图斯",
+	["Ambassador Vortalus"] = "沃尔塔卢斯大使",
+	["Walgan Bloodcaller"] = "瓦尔根·唤血者",
+	["Bonespeaker Narlgom"] = "骨语者纳尔格姆",
+	["Prophet Stormhoof"] = "雷角",
+	["Chieftain Shalk Blackwind"] = "酋长沙尔克·黑风",
 
+	["Ezzel Darkbrewer"] = "伊泽尔·黑酿",
+	["Broodcommander Axelus"] = "巢穴指挥官阿克塞勒斯",
 } end)
