@@ -30,10 +30,10 @@ Atlas_DropDownLayouts_Order = {
 		[1] = ATLAS_DDL_CONTINENT_EASTERN,
 		[2] = ATLAS_DDL_CONTINENT_KALIMDOR,
 		[3] = ATLAS_DDL_WORLDBOSSES,
-		[4] = GREN .. ATLAS_DDL_TYPE_ENTRANCE,
-		[5] = GREN .. ATLAS_DDL_BGS,
-		[6] = GREN .. ATLAS_DDL_DUNGEON_LOCATIONS,
-		[7] = GREN .. ATLAS_DDL_FLIGHT_PATHS,
+		[4] = ATLAS_DDL_TYPE_ENTRANCE,
+		[5] = ATLAS_DDL_BGS,
+		[6] = ATLAS_DDL_DUNGEON_LOCATIONS,
+		[7] = ATLAS_DDL_FLIGHT_PATHS,
 		[8] = ATLAS_DDL_TRANSPORT_ROUTES,
 	},
 	[ATLAS_DDL_PARTYSIZE] = {
@@ -42,29 +42,29 @@ Atlas_DropDownLayouts_Order = {
 		[3] = ATLAS_DDL_PARTYSIZE_20,
 		[4] = ATLAS_DDL_PARTYSIZE_40,
 		[5] = ATLAS_DDL_WORLDBOSSES,
-		[6] = GREN .. ATLAS_DDL_TYPE_ENTRANCE,
-		[7] = GREN .. ATLAS_DDL_BGS,
-		[8] = GREN .. ATLAS_DDL_DUNGEON_LOCATIONS,
-		[9] = GREN .. ATLAS_DDL_FLIGHT_PATHS,
+		[6] = ATLAS_DDL_TYPE_ENTRANCE,
+		[7] = ATLAS_DDL_BGS,
+		[8] = ATLAS_DDL_DUNGEON_LOCATIONS,
+		[9] = ATLAS_DDL_FLIGHT_PATHS,
 		[10] = ATLAS_DDL_TRANSPORT_ROUTES,
 	},
 	[ATLAS_DDL_TYPE] = {
 		[1] = ATLAS_DDL_TYPE_DUNGEONS,
 		[2] = ATLAS_DDL_TYPE_RAIDS,
 		[3] = ATLAS_DDL_WORLDBOSSES,
-		[4] = GREN .. ATLAS_DDL_TYPE_ENTRANCE,
-		[5] = GREN .. ATLAS_DDL_BGS,
-		[6] = GREN .. ATLAS_DDL_DUNGEON_LOCATIONS,
-		[7] = GREN .. ATLAS_DDL_FLIGHT_PATHS,
+		[4] = ATLAS_DDL_TYPE_ENTRANCE,
+		[5] = ATLAS_DDL_BGS,
+		[6] = ATLAS_DDL_DUNGEON_LOCATIONS,
+		[7] = ATLAS_DDL_FLIGHT_PATHS,
 		[8] = ATLAS_DDL_TRANSPORT_ROUTES,
 	},
 	[ATLAS_DDL_ALL] = {
 		[1] = ATLAS_DDL_ALL_MENU,
 		[2] = ATLAS_DDL_WORLDBOSSES,
-		[3] = GREN .. ATLAS_DDL_TYPE_ENTRANCE,
-		[4] = GREN .. ATLAS_DDL_BGS,
-		[5] = GREN .. ATLAS_DDL_DUNGEON_LOCATIONS,
-		[6] = GREN .. ATLAS_DDL_FLIGHT_PATHS,
+		[3] = ATLAS_DDL_TYPE_ENTRANCE,
+		[4] = ATLAS_DDL_BGS,
+		[5] = ATLAS_DDL_DUNGEON_LOCATIONS,
+		[6] = ATLAS_DDL_FLIGHT_PATHS,
 	},
 };
 
@@ -131,7 +131,7 @@ Atlas_DropDownLayouts = {
 			"CowKing",
 			"Clackora"
 		},
-		[GREN .. ATLAS_DDL_TYPE_ENTRANCE] = {
+		[ATLAS_DDL_TYPE_ENTRANCE] = {
 			"BlackfathomDeepsEnt",
 			"BlackrockMountainEnt",
 			"DireMaulEnt",
@@ -143,17 +143,17 @@ Atlas_DropDownLayouts = {
 			"UldamanEnt",
 			"WailingCavernsEnt",
 		},
-		[GREN .. ATLAS_DDL_BGS] = {
+		[ATLAS_DDL_BGS] = {
 			"AlteracValleyNorth",
 			"AlteracValleySouth",
 			"ArathiBasin",
 			"WarsongGulch",
 		},
-		[GREN .. ATLAS_DDL_DUNGEON_LOCATIONS] = {
+		[ATLAS_DDL_DUNGEON_LOCATIONS] = {
 			"DLEast",
 			"DLWest",
 		},
-		[GREN .. ATLAS_DDL_FLIGHT_PATHS] = {
+		[ATLAS_DDL_FLIGHT_PATHS] = {
 			"FPAllianceEast",
 			"FPAllianceWest",
 			"FPHordeEast",
@@ -230,7 +230,7 @@ Atlas_DropDownLayouts = {
 			"CowKing",
 			"Clackora"
 		},
-		[GREN .. ATLAS_DDL_TYPE_ENTRANCE] = {
+		[ATLAS_DDL_TYPE_ENTRANCE] = {
 			"BlackfathomDeepsEnt",
 			"BlackrockMountainEnt",
 			"DireMaulEnt",
@@ -242,17 +242,17 @@ Atlas_DropDownLayouts = {
 			"UldamanEnt",
 			"WailingCavernsEnt",
 		},
-		[GREN .. ATLAS_DDL_BGS] = {
+		[ATLAS_DDL_BGS] = {
 			"AlteracValleyNorth",
 			"AlteracValleySouth",
 			"ArathiBasin",
 			"WarsongGulch",
 		},
-		[GREN .. ATLAS_DDL_DUNGEON_LOCATIONS] = {
+		[ATLAS_DDL_DUNGEON_LOCATIONS] = {
 			"DLEast",
 			"DLWest",
 		},
-		[GREN .. ATLAS_DDL_FLIGHT_PATHS] = {
+		[ATLAS_DDL_FLIGHT_PATHS] = {
 			"FPAllianceEast",
 			"FPAllianceWest",
 			"FPHordeEast",
@@ -264,54 +264,54 @@ Atlas_DropDownLayouts = {
 	},
 	[ATLAS_DDL_TYPE] = {
 		[ATLAS_DDL_TYPE_DUNGEONS] = {
-			"FrostmaneHollow",
-			"WindhornCanyon",
-			"BlackfathomDeeps",
-			"CavernsOfTimeBlackMorass", -- TurtleWOW
-			"BlackrockDepths",
-			"BlackrockSpireLower",
-			"BlackrockSpireUpper",
-			"TheCrescentGrove", -- TurtleWOW
-			"DireMaulEast",
-			"DireMaulNorth",
-			"DireMaulWest",
-			"DragonmawRetreat",
-			"Gnomeregan",
-			"GilneasCity", -- TurtleWOW 1.17.0
-			"HateforgeQuarry", -- TurtleWOW
-			"KarazhanCrypt", -- TurtleWOW
-			"Maraudon",
-			"TheDeadmines",
 			"RagefireChasm",
-			"RazorfenDowns",
-			"RazorfenKraul",
-			"Scholomance",
+			"FrostmaneHollow", -- TurtleWOW
+			"WailingCaverns",
+			"TheDeadmines",
 			"ShadowfangKeep",
-			"SMArmory",
-			"SMCathedral",
+			"TheStockade",
+			"BlackfathomDeeps",
+			"WindhornCanyon", -- TurtleWOW
+			"DragonmawRetreat", -- TurtleWOW
+			"Gnomeregan",
+			"RazorfenKraul",
+			"TheCrescentGrove", -- TurtleWOW
 			"SMGraveyard",
 			"SMLibrary",
-			"StormwindVault", --TurtleWOW
-			"StormwroughtRuins",
-			"Stratholme",
-			"TheStockade",
-			"TheSunkenTemple",
+			"SMArmory",
+			"SMCathedral",
+			"StormwroughtRuins", -- TurtleWOW
+			"RazorfenDowns",
 			"Uldaman",
-			"WailingCaverns",
+			"GilneasCity", -- TurtleWOW
 			"ZulFarrak",
+			"Maraudon",
+			"TheSunkenTemple",
+			"HateforgeQuarry", -- TurtleWOW
+			"BlackrockDepths",
+			"DireMaulEast",
+			"DireMaulWest",
+			"DireMaulNorth",
+			"Scholomance",
+			"Stratholme",
+			"BlackrockSpireLower",
+			"BlackrockSpireUpper",
+			"KarazhanCrypt", -- TurtleWOW
+			"StormwindVault", --TurtleWOW
+			"CavernsOfTimeBlackMorass", -- TurtleWOW
 		},
 		[ATLAS_DDL_TYPE_RAIDS] = {
-			"TimbermawHold",
-			"BlackwingLair",
-			"EmeraldSanctum", -- TurtleWOW 1.17.0
-			"LowerKara", -- -- TurtleWOW 1.17.0
-            "UpperKara",
-			"MoltenCore",
-			"Naxxramas",
-			"OnyxiasLair",
+			"LowerKara", -- TurtleWOW
 			"TheRuinsofAhnQiraj",
-			"TheTempleofAhnQiraj",
 			"ZulGurub",
+			"OnyxiasLair",
+			"EmeraldSanctum", -- TurtleWOW
+			"MoltenCore",
+			"BlackwingLair",
+			"TheTempleofAhnQiraj",
+			"TimbermawHold", -- TurtleWOW
+			"Naxxramas",
+            "UpperKara", -- TurtleWOW
 		},
 		[ATLAS_DDL_WORLDBOSSES] = {
 			"Azuregos",
@@ -324,7 +324,7 @@ Atlas_DropDownLayouts = {
 			"CowKing",
 			"Clackora"
 		},
-		[GREN .. ATLAS_DDL_TYPE_ENTRANCE] = {
+		[ATLAS_DDL_TYPE_ENTRANCE] = {
 			"BlackfathomDeepsEnt",
 			"BlackrockMountainEnt",
 			"DireMaulEnt",
@@ -336,17 +336,17 @@ Atlas_DropDownLayouts = {
 			"UldamanEnt",
 			"WailingCavernsEnt",
 		},
-		[GREN .. ATLAS_DDL_BGS] = {
+		[ATLAS_DDL_BGS] = {
 			"AlteracValleyNorth",
 			"AlteracValleySouth",
 			"ArathiBasin",
 			"WarsongGulch",
 		},
-		[GREN .. ATLAS_DDL_DUNGEON_LOCATIONS] = {
+		[ATLAS_DDL_DUNGEON_LOCATIONS] = {
 			"DLEast",
 			"DLWest",
 		},
-		[GREN .. ATLAS_DDL_FLIGHT_PATHS] = {
+		[ATLAS_DDL_FLIGHT_PATHS] = {
 			"FPAllianceEast",
 			"FPAllianceWest",
 			"FPHordeEast",

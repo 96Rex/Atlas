@@ -1,12 +1,14 @@
-# Atlas for Turtle WoW
-Atlas allows you to view dungeon maps/ battleground maps/dungeon locations/ flight paths and transport routes in game!
+# Atlas
+Atlas 乌龟服专用版 可以让你在游戏中随时查看副本/团本地图以及掉落;各种套装;专业制作物品;声望奖励;战场奖励等!
 
-## Important
-If you want to use AtlasLoot and/or AtlasQuest with this fork of Atlas, download them from here:
- - [AtlasLoot](https://github.com/Otari98/AtlasLoot)
- - [AtlasQuest](https://github.com/Otari98/AtlasQuest)
+## 推荐将Atlas和Atlasloot一起使用
+[AtlasLoot](https://github.com/96Rex/AtlasLoot)
 
-Otherwise you may encounter errors.
 
-## Preview
-<img width="1450" height="771" alt="image" src="https://github.com/user-attachments/assets/b40c399d-5b48-440e-aeea-21e191e6aa08" />
+## 预览图
+![1](https://github.com/96Rex/Images/blob/main/QQ%E5%9B%BE%E7%89%8720260413152718.png)
+
+
+
+
+![2](https://github.com/96Rex/Images/blob/main/QQ%E6%88%AA%E5%9B%BE20260413152737.png)

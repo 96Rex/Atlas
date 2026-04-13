@@ -128,10 +128,10 @@ AtlasMaps = {
 		{ GREY.."3) "..AL["Lady Anacondra"], NPC, 3671 };
 		{ GREY.."4) "..AL["Kresh"], NPC, 3653 };
 		{ GREY.."5) "..AL["Deviate Faerie Dragon"].." ("..AL["Rare"]..")", NPC, 5912 };
-		{ GREY.."6) ".."Zandara Windhoof", NPC, -1 };
+		{ GREY.."6) "..AL["Zandara Windhoof"], NPC, -1 };
 		{ GREY.."7) "..AL["Lord Pythas"], NPC, 3670 };
 		{ GREY.."8) "..AL["Skum"], NPC, 3674 };
-		{ GREY.."9) ".."Vangros", NPC, -1 };
+		{ GREY.."9) "..AL["Vangros"], NPC, -1 };
 		{ GREY.."10) "..AL["Lord Serpentis"].." ("..AL["Upper"]..")", NPC, 3673 };
 		{ GREY.."11) "..AL["Verdan the Everliving"].." ("..AL["Upper"]..")", NPC, 5775 };
 		{ GREY.."12) "..AL["Mutanus the Devourer"], NPC, 3654 };
@@ -1037,7 +1037,7 @@ AtlasMaps = {
 		{ GREY.."1) "..AL["Houndmaster Loksey"], NPC, 3974 };
 		{ GREY.."2) "..AL["Arcanist Doan"], NPC, 6487 };
 		{ GREN.."1') "..AL["Doan's Strongbox"], OBJECT, 103821 };
-		{ GREY.."3) ".."Brother Wystan", NPC, -1  };
+		{ GREY.."3) "..AL["Brother Wystan"], NPC, -1  };
 		{ "" };
 		{ GREY..INDENT..AL["Trash Mobs"] };
 		{ GREY..INDENT..AL["Set: "]..BIS["Chain of the Scarlet Crusade"] };
@@ -1053,7 +1053,7 @@ AtlasMaps = {
 		{ ORNG..AL["Key"]..": "..AL["The Scarlet Key"], ITEM, 7146 };
 		{ BLUE.."A) "..AL["Entrance"] };
 		{ GREY.."1) "..AL["Herod"], NPC, 3975 };
-		{ GREY.."2) ".."Armory Quartermaster Daghelm", NPC, -1 };
+		{ GREY.."2) "..AL["Armory Quartermaster Daghelm"], NPC, -1 };
 		{ "" };
 		{ GREY..INDENT..AL["Trash Mobs"] };
 		{ GREY..INDENT..AL["Set: "]..BIS["Chain of the Scarlet Crusade"] };
@@ -1091,7 +1091,7 @@ AtlasMaps = {
 		{ GREN.."1') "..AL["Ironspine"].." ("..AL["Rare"]..")", NPC, 6489 };
 		{ GREN..INDENT..AL["Azshir the Sleepless"].." ("..AL["Rare"]..")", NPC, 6490 };
 		{ GREN..INDENT..AL["Fallen Champion"].." ("..AL["Rare"]..")", NPC, 6488 };
-		{ GREY.."4) ".."Duke Dreadmoore", NPC, -1 };
+		{ GREY.."4) "..AL["Duke Dreadmoore"], NPC, -1 };
 		{ "" };
 		{ GREY..INDENT..AL["Trash Mobs"] };
 		{ GREY..INDENT..AL["Set: "]..BIS["Chain of the Scarlet Crusade"] };
@@ -1173,7 +1173,7 @@ AtlasMaps = {
 		{ GREY..INDENT..AL["The Book of Ur"], OBJECT, 36738 };
 		{ GREY.."11) "..AL["Wolf Master Nandos"], NPC, 3927 };
 		{ GREY.."12) "..AL["Archmage Arugal"], NPC, 4275 };
-		{ GREY.."13) ".."Prelate Ironmane", NPC, -1 };
+		{ GREY.."13) "..AL["Prelate Ironmane"], NPC, -1 };
 		{ "" };
 		{ GREY..INDENT..AL["Trash Mobs"] };
 	};

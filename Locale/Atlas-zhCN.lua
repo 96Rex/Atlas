@@ -80,8 +80,8 @@ if ( GetLocale() ==	"zhCN" ) then
 	ATLAS_DDL_ALL = "全部";
 	ATLAS_DDL_ALL_MENU = "显示所有副本";
 	ATLAS_DDL_TYPE = "类型";
-	ATLAS_DDL_TYPE_DUNGEONS = "地下城";
-	ATLAS_DDL_TYPE_RAIDS = "团队副本";
+	ATLAS_DDL_TYPE_DUNGEONS = "副本";
+	ATLAS_DDL_TYPE_RAIDS = "团本";
 	ATLAS_DDL_WORLDBOSSES = "世界首领";
 	ATLAS_DDL_TYPE_ENTRANCE = "入口";
 	ATLAS_DDL_BGS = "战场";
@@ -148,7 +148,7 @@ AL:RegisterTranslations("zhCN", function() return {
 	["Chase Ends"] = "追逐结束";		
 	["AKA"] = "又名";	
 	["Attunement Required"] = "需要开门任务";
-	["Back"] = "背部";
+	["Back"] = "后门";
 	["Back1"] = "后退";
 	["Blacksmithing Plans"] = "锻造设计图";	
 	["Brazier of Invocation"] = "符咒火盆";
@@ -156,7 +156,7 @@ AL:RegisterTranslations("zhCN", function() return {
 	["Connections"] = "连接点";
 	["Damage: "] = "伤害: ";
 	["Tier 0.5 Summon"] = "T0.5 召唤";
-	["Dungeon Locations"] = "地下城位置";
+	["Dungeon Locations"] = "副本位置";
 	["Elevator"] = "升降机";
 	["Front"] = "前部";
 	["Front1"] = "前部1";
@@ -179,8 +179,8 @@ AL:RegisterTranslations("zhCN", function() return {
 	["through "] = "穿过";
 	["Trash Mobs"] = "小怪";
 	["Unknown"] = "未知";
-	["Varies"] = "变化";
-	["Various"] = "各种各样";
+	["Varies"] = "不固定";
+	["Various"] = "不固定";
 	["Wanders"] = "游荡";
 	
 	--特殊副本名称
@@ -197,6 +197,7 @@ AL:RegisterTranslations("zhCN", function() return {
 	["Zul'Gurub Ring Sets"] = "祖尔格拉布戒指套装";
 	["Ruins of Ahn'Qiraj Sets"] = "安其拉废墟套装";
 	["Temple of Ahn'Qiraj Sets"] = "安其拉神庙套装";
+	["Karazhan Sets"] = "卡拉赞套装";
 	["Tier 1 Sets"] = "T1 套装";
 	["Tier 2 Sets"] = "T2 套装";
 	["Tier 3 Sets"] = "T3 套装";
@@ -1466,4 +1467,11 @@ Dependencies: AceLibrary, AceLocale-2.2
 
 	["Ezzel Darkbrewer"] = "伊泽尔·黑酿",
 	["Broodcommander Axelus"] = "巢穴指挥官阿克塞勒斯",
+	
+	["Zandara Windhoof"] = "赞达拉·风蹄",
+	["Vangros"] = "范格罗斯",
+	["Prelate Ironmane"] = "艾隆迈恩主教",
+	["Duke Dreadmoore"] = "达德摩尔公爵",
+	["Brother Wystan"] = "威斯坦修士",
+	["Armory Quartermaster Daghelm"] = "军需官达格海姆",
 } end)

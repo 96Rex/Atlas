@@ -96,6 +96,7 @@ AtlasZoneSubstitutions = {
 	["The Temple of Atal'Hakkar"] = "Sunken Temple";
 };
 
+
 AL:RegisterTranslations("enUS", function() return {
 	
 	--************************************************
@@ -1466,4 +1467,11 @@ Dependencies: AceLibrary, AceLocale-2.2
 
 	["Ezzel Darkbrewer"] = true,
 	["Broodcommander Axelus"] = true,
+	
+	["Zandara Windhoof"] = true,
+	["Vangros"] = true,
+	["Prelate Ironmane"] = true,
+	["Duke Dreadmoore"] = true,
+	["Brother Wystan"] = true,
+	["Armory Quartermaster Daghelm"] = true,
 } end)

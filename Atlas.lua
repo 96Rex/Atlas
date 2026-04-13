@@ -326,11 +326,11 @@ function Atlas_PopulateDropdowns()
 		for k, v in pairs(subcatItems) do
 			table.insert(ATLAS_DROPDOWNS[n], v);
 		end
-
-		if (subcatOrder[n] ~= ATLAS_DDL_ALL_MENU and
-				subcatOrder[n] ~= ATLAS_DDL_WORLDBOSSES) then
-			table.sort(ATLAS_DROPDOWNS[n], Atlas_SortZonesAlpha);
-		end
+		--取消对副本顺序排序,按照数据库录入顺序排序
+		-- if (subcatOrder[n] ~= ATLAS_DDL_ALL_MENU and
+				-- subcatOrder[n] ~= ATLAS_DDL_WORLDBOSSES) then
+			-- table.sort(ATLAS_DROPDOWNS[n], Atlas_SortZonesAlpha);
+		-- end
 
 		i = n + 1;
 	end
