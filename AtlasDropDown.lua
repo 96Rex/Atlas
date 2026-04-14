@@ -72,53 +72,53 @@ Atlas_DropDownLayouts = {
 	[ATLAS_DDL_CONTINENT] = {
 		[ATLAS_DDL_CONTINENT_EASTERN] = {
 			"FrostmaneHollow",
-			"BlackrockDepths",
-			"BlackrockSpireLower",
-			"BlackrockSpireUpper",
-			"BlackwingLair",
+			"TheDeadmines",
+			"ShadowfangKeep",
+			"TheStockade",
 			"DragonmawRetreat",
 			"Gnomeregan",
-			"GilneasCity", -- TurtleWOW 1.17.0
-			"HateforgeQuarry", -- TurtleWOW
-			"KarazhanCrypt", -- TurtleWOW
-			"LowerKara", -- -- TurtleWOW 1.17.0
-            "UpperKara",
-			"MoltenCore",
-			"Naxxramas",
-			"Scholomance",
-			"ShadowfangKeep",
-			"SMArmory",
-			"SMCathedral",
 			"SMGraveyard",
 			"SMLibrary",
-			"Stratholme",
-			"StormwindVault", -- TurtleWOW
+			"SMArmory",
+			"SMCathedral",
 			"StormwroughtRuins",
-			"TheDeadmines",
-			"TheStockade",
-			"TheSunkenTemple",
 			"Uldaman",
+			"GilneasCity", -- TurtleWOW
+			"TheSunkenTemple",
+			"HateforgeQuarry", -- TurtleWOW
+			"BlackrockDepths",
+			"Scholomance",
+			"Stratholme",
+			"BlackrockSpireLower",
+			"BlackrockSpireUpper",
+			"KarazhanCrypt", -- TurtleWOW
+			"StormwindVault", -- TurtleWOW
+			"LowerKara", -- TurtleWOW
 			"ZulGurub",
+			"MoltenCore",
+			"BlackwingLair",
+			"Naxxramas",
+			"UpperKara", -- TurtleWOW
 		},
 		[ATLAS_DDL_CONTINENT_KALIMDOR] = {
-			"TimbermawHold",
-			"WindhornCanyon",
-			"BlackfathomDeeps",
-			"CavernsOfTimeBlackMorass", -- TurtleWOW
-			"TheCrescentGrove", -- TurtleWOW
-			"DireMaulEast",
-			"DireMaulNorth",
-			"DireMaulWest",
-			"EmeraldSanctum", -- TurtleWOW 1.17.0
-			"Maraudon",
-			"OnyxiasLair",
 			"RagefireChasm",
-			"RazorfenDowns",
-			"RazorfenKraul",
-			"TheRuinsofAhnQiraj",
-			"TheTempleofAhnQiraj",
 			"WailingCaverns",
+			"BlackfathomDeeps",
+			"WindhornCanyon",
+			"RazorfenKraul",
+			"TheCrescentGrove",-- TurtleWOW
+			"RazorfenDowns",
 			"ZulFarrak",
+			"Maraudon",
+			"DireMaulEast",
+			"DireMaulWest",
+			"DireMaulNorth",
+			"CavernsOfTimeBlackMorass",-- TurtleWOW
+			"TheRuinsofAhnQiraj",
+			"OnyxiasLair",
+			"EmeraldSanctum",-- TurtleWOW
+			"TheTempleofAhnQiraj",
+			"TimbermawHold",
 		},
 		[ATLAS_DDL_WORLDBOSSES] = {
 			"Azuregos",
@@ -165,40 +165,39 @@ Atlas_DropDownLayouts = {
 	},
 	[ATLAS_DDL_PARTYSIZE] = {
 		[ATLAS_DDL_PARTYSIZE_5] = {
+			"RagefireChasm",
 			"FrostmaneHollow",
+			"WailingCaverns",
+			"TheDeadmines",
+			"ShadowfangKeep",
+			"TheStockade",
 			"WindhornCanyon",
-			"CavernsOfTimeBlackMorass", -- TurtleWOW
-			"BlackrockDepths",
-			"TheCrescentGrove", --TurtleWOW
-			"DireMaulEast",
-			"DireMaulEnt",
-			"DireMaulNorth",
-			"DireMaulWest",
 			"DragonmawRetreat",
+			"Gnomeregan",
+			"RazorfenKraul",
+			"TheCrescentGrove", --TurtleWOW
+			"SMGraveyard",
+			"SMLibrary",
+			"SMArmory",
+			"SMCathedral",
+			"StormwroughtRuins",
+			"RazorfenDowns",
+			"Uldaman",
 			"GilneasCity", -- TurtleWOW 1.17.0
+			"ZulFarrak",
+			"Maraudon",
+			"TheSunkenTemple",
 			"HateforgeQuarry", -- TurtleWOW
+			"BlackrockDepths",
+			"DireMaulEast",
+			"DireMaulWest",
+			"DireMaulNorth",
 			"Scholomance",
 			"Stratholme",
 			"BlackrockSpireLower",
-			"Gnomeregan",
 			"KarazhanCrypt", -- TurtleWOW
-			"Maraudon",
-			"TheDeadmines",
-			"RagefireChasm",
-			"RazorfenDowns",
-			"RazorfenKraul",
-			"ShadowfangKeep",
-			"SMArmory",
-			"SMCathedral",
-			"SMGraveyard",
-			"SMLibrary",
 			"StormwindVault", --TurtleWOW
-			"StormwroughtRuins",
-			"TheStockade",
-			"TheSunkenTemple",
-			"Uldaman",
-			"WailingCaverns",
-			"ZulFarrak",
+			"CavernsOfTimeBlackMorass", -- TurtleWOW
 		},
 		[ATLAS_DDL_PARTYSIZE_10] = {
 			"BlackrockSpireLower",
@@ -206,17 +205,17 @@ Atlas_DropDownLayouts = {
 			"LowerKara", -- -- TurtleWOW 1.17.0
 		},
 		[ATLAS_DDL_PARTYSIZE_20] = {
-			"TimbermawHold",
 			"TheRuinsofAhnQiraj",
 			"ZulGurub",
+			"TimbermawHold",
 		},
 		[ATLAS_DDL_PARTYSIZE_40] = {
-			"BlackwingLair",
 			"EmeraldSanctum", -- TurtleWOW 1.17.0
-			"MoltenCore",
-			"Naxxramas",
 			"OnyxiasLair",
+			"MoltenCore",
+			"BlackwingLair",
 			"TheTempleofAhnQiraj",
+			"Naxxramas",
             "UpperKara",
 		},
 		[ATLAS_DDL_WORLDBOSSES] = {
